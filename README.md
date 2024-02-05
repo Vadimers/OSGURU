@@ -1,2 +1,2 @@
-# OSVE
+## OSVE
 Operating systems \ KFKZ
