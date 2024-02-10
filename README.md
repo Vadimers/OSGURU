@@ -1,2 +1,2 @@
-# OSVE
+# OSGURU
 Operating systems \ KFKZ
