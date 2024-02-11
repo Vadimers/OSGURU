@@ -82,7 +82,7 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 2. Прочитавши матеріал з коротких теоретичних відомостей дайте відповіді на наступні питання:
 
-*Готував матеріал студент Войтенко В.*
+*Готував матеріал студент Войтенко В. та Селезень Є.*
 
 <br/>
 
@@ -118,6 +118,29 @@ There are two main types of hypervisors:
 
 Xen meets high security and reliability requirements, as evidenced by its usage by serious companies like Amazon, BitDefender, and others.
 
+
+<u>The main components of the VirtualBox hypervisor are:</u>
+
+**1. Hypervisor Core:** At the core of VirtualBox is the hypervisor itself, which directly interacts with the host hardware to manage virtualization. It is responsible for creating, running, and controlling virtual machines.<br/>
+**2. Virtualization Engine:** This component implements the low-level functionality required for virtualization, including memory and CPU management, device emulation, and instruction execution.<br/>
+**3. VM Monitor (VMM):** The VM Monitor is responsible for monitoring and controlling the execution of virtual machines. It intercepts privileged instructions from guest operating systems and manages their execution on the host hardware.<br/>
+**4. Hardware Abstraction Layer (HAL):** The HAL abstracts the physical hardware resources of the host system, presenting them to guest operating systems as virtual hardware components. This allows multiple VMs to run simultaneously on the same physical machine without interference.<br/>
+**5. Device Emulation:** VirtualBox includes device emulation components that emulate virtual hardware devices, such as virtual CPUs, memory, disk controllers, network interfaces, and graphics adapters. These virtual devices are presented to guest operating systems as if they were real hardware.<br/>
+**6. Virtual Machine Manager (VMMgr):** This component provides a management interface for controlling virtual machines, managing their configuration, starting and stopping them, and monitoring their performance.<br/>
+**7. Frontend Interface:** VirtualBox provides user-friendly frontend interfaces, including a graphical user interface (GUI) and a command-line interface (CLI), for configuring and managing virtual machines.<br/>
+**8. Service Interfaces:** VirtualBox exposes service interfaces for interacting with the hypervisor and virtual machines programmatically. These interfaces enable automation and integration with other systems and tools.<br/>
+
+<u>The main capabilities of the VirtualBox hypervisor are:</u>
+
+**1. Virtual machines (VMs):** VirtualBox allows you to create and run virtual machines of different operating systems such as Windows, Linux, macOS and others. Each virtual machine runs as a separate virtual environment with its own processor, memory, disk, and network settings.<br/>
+**2. Guest support:** VirtualBox provides support for a large number of guest operating systems, including various versions of Windows, Linux, macOS, FreeBSD, and more. This allows users to run a variety of OSes on their primary computer.<br/>
+**3. Sharing resources:** VirtualBox allows you to configure file and folder sharing between the host system and the guest OS.<br/>
+**4. System resources:** The user can configure the amount of available system resources (such as CPU, RAM, disk) for each virtual machine.<br/>
+**5. Networking:** VirtualBox provides various networking options for virtual machines, such as NAT, bridge, internal network, etc. This allows you to customize communication between virtual machines and external networks.<br/>
+**6. Snapshots:** VirtualBox allows you to create snapshots of virtual machines, which allows you to save the state of the system at a certain point in time and return to it when necessary.<br/>
+**7. Virtualization of hardware devices:** VirtualBox supports the virtualization of hardware devices such as USB devices, network adapters, sound devices, etc., allowing them to be used in virtual machines.<br/>
+**8. Compatibility and advanced features:** VirtualBox has a high level of compatibility with different versions of operating systems and software. There are also advanced features that allow for USB 2.0 and 3.0 support, GPU virtualization, and more.<br/>
+
 2. Після перегляду відео дайте відповіді на наступні питання.
    
 2.1	Перерахуйте етапи для розгортання операційної системи на базі віртуальної машини VirtualBox.
@@ -139,7 +162,23 @@ Xen meets high security and reliability requirements, as evidenced by its usage 
 
 2.3	Які основні етапи при встановленні CentOS в текстовому режимі?
 
+Install VirtualBox, create a virtual machine, add carrier, install CentOS.
+
 2.4	Яким чином можна до установити графічні оболонки Gnome та KDE на CentOS, якщо вона вже встановлена в текстовому режимі (вкажіть необхідні команди та пакети)? 
+
+**1. Install the necessary graphical desktop packages.**
+Package for GNOME: sudo yum groupinstall "GNOME Desktop"
+Package for KDE: sudo yum groupinstall "KDE Plasma Workspaces"
+
+**2. Install the login manager:**
+After installing the graphical desktop, you need to install a login manager to handle the login process. For GNOME, GDM (GNOME Display Manager) is used, and for KDE, you can install SDDM (Simple Desktop Display Manager) or KDM (KDE Display Manager).<br/>
+For GNOME:
+sudo systemctl enable gdm
+sudo systemctl set-default graphical.target
+
+For KDE (SDDM):
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
 
 2.5	Дайте коротку характеристику графічних інтерфейсів, що використовуються в різних дистрибутивах Linux  відповідно до свого варіанту (порядковий номер по журналу), табл.2.
 
@@ -172,6 +211,12 @@ In summary, Fvwm provides users with a highly customizable and lightweight windo
 <br/>
 In summary, Fvwm provides users with a highly customizable and lightweight window manager that offers extensive flexibility and functionality while conserving system resources.
 
+**KDE (K Desktop Environment):**
+KDE is one of the most popular and feature-rich graphical interfaces for Linux. It boasts a wide range of features and tools, making it highly customizable and extensible. KDE has a modern and stylish design, providing a high level of convenience for users. Its components, such as the taskbar, window manager, and system settings, are tightly integrated and work well together. KDE is commonly used in Linux distributions such as Kubuntu, openSUSE KDE, Fedora KDE Spin, and others.
+
+**Fluxbox:**
+Fluxbox is a lightweight and fast graphical interface for Linux. It has a minimalist design and a simplified interface, making it ideal for older or resource-constrained systems. Fluxbox lacks many built-in features, but it can be extended using various modules and scripts. It allows users to fully customize their working environment by editing configuration files. Fluxbox is excellent for users seeking a simple and efficient graphical interface without unnecessary resource overhead. It is often used in lightweight Linux distributions such as CrunchBang, Bodhi Linux, or as an alternative option in more general-purpose distributions.
+
 **Відповіді на контрольні запитання**
 <br/>
 ***Готував матеріал студент Войтенко В.***
@@ -200,8 +245,11 @@ Type 1 hypervisors are employed in enterprise settings to manage a large number 
 
 3. В чому суть програмного забезпечення з відкритим кодом?
 
+This is software whose source code is available for viewing, use, modification, and distribution. Open source fosters collaboration and innovation because anyone can contribute to the development and improvement of the program.
 
 4. Що таке дистрибутив?
+
+This is a version of the Linux operating system, which includes the Linux kernel, various programs, and tools, forming a comprehensive working environment for the user. Each distribution may have its own features, such as Ubuntu, Fedora, Debian, CentOS, and so on.
 
 ***Готував матеріал студент Войтенко В.***
 
@@ -220,8 +268,13 @@ Type 1 hypervisors are employed in enterprise settings to manage a large number 
 
 7. Основні можливості та сфера використання Embedded Linux?
 
+Embedded Linux is used for embedded systems, such as mobile devices, medical devices, automotive electronics, and more. Key features include small size, low power consumption, and the ability to operate on various hardware platforms.
 
 8. Яким чином можна змінити типу завантаження Linux: в текстовому режимі (3 рівень) або графічному (рівень 5)? Чим відрізняються режими CLI та GUI?
+
+To change the boot type to either text mode (runlevel 3) or graphical mode (runlevel 5), you can edit the GRUB (Grand Unified Bootloader) configuration file /etc/default/grub and modify the value of GRUB_CMDLINE_LINUX_DEFAULT.
+
+The Command Line Interface (CLI) mode differs from the Graphical User Interface (GUI) mode in that it operates in text mode and requires inputting commands from the keyboard, whereas the GUI mode provides a graphical interface for interacting with the user using both mouse and keyboard.
 
 **Висновок**
 <br/>
