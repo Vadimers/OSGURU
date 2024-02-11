@@ -81,7 +81,7 @@ To view the list of commits in the repository, you can use the git log command. 
 Створіть новий публічний репозиторій, який будете використовувати для додавання всіх виконаних робіт з дисципліни «Операційні системи» (якщо працюєте в команді долучіть інших учасників команди до його редакторів).
 
 <div align="center"><img src="./account1.jpg" /></div>
-<div align="center"><img src="./account2.jpg" /></div>
+<div align="center"><img src="./image_2024-02-11_23-37-07.png" /></div>
 <div align="center"><img src="./git_clone.jpg"  width="600" height="341"/></div>
 <div align="center"><img src="./git_add.jpg" /></div>
 <div align="center"><img src="./git_commit.jpg" /></div>
