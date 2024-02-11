@@ -82,7 +82,7 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 2. Прочитавши матеріал з коротких теоретичних відомостей дайте відповіді на наступні питання:
 
-*Готував матеріал студент Войтенко В. та Селезень Є.*
+*Готував матеріал студент Войтенко В.(варіант - 3) та Селезень Є.(варіант - 16)*
 
 <br/>
 
@@ -181,10 +181,10 @@ For KDE (SDDM):
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 
-2.5	Дайте коротку характеристику графічних інтерфейсів, що використовуються в різних дистрибутивах Linux  відповідно до свого варіанту (порядковий номер по журналу), табл.2.
+2.5	Дайте коротку характеристику графічних інтерфейсів, що використовуються в різних дистрибутивах Linux  відповідно до свого варіанту (порядковий номер по журналу - 3)
 
 The Xfce and Fvwm graphical interfaces used in various Linux distributions.
-Xfce is a lightweight desktop environment for Unix-like operating systems. 
+**Xfce** is a lightweight desktop environment for Unix-like operating systems. 
 The advantage lies in its speed and low resource usage, while also being attractive and easy to use.
 <br/>
 Xfce embodies the traditional UNIX philosophy of modularity and reusability.
@@ -212,6 +212,8 @@ In summary, Fvwm provides users with a highly customizable and lightweight windo
 <br/>
 In summary, Fvwm provides users with a highly customizable and lightweight window manager that offers extensive flexibility and functionality while conserving system resources.
 
+2.5	Дайте коротку характеристику графічних інтерфейсів, що використовуються в різних дистрибутивах Linux  відповідно до свого варіанту (порядковий номер по журналу - 16)
+<br/>
 **KDE (K Desktop Environment):**
 KDE is one of the most popular and feature-rich graphical interfaces for Linux. It boasts a wide range of features and tools, making it highly customizable and extensible. KDE has a modern and stylish design, providing a high level of convenience for users. Its components, such as the taskbar, window manager, and system settings, are tightly integrated and work well together. KDE is commonly used in Linux distributions such as Kubuntu, openSUSE KDE, Fedora KDE Spin, and others.
 
