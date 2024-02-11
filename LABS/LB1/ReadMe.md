@@ -250,7 +250,9 @@ This is software whose source code is available for viewing, use, modification, 
 
 4. Що таке дистрибутив?
 
-This is a version of the Linux operating system, which includes the Linux kernel, various programs, and tools, forming a comprehensive working environment for the user. Each distribution may have its own features, such as Ubuntu, Fedora, Debian, CentOS, and so on.
+A distribution is a form of software distribution.
+
+A distribution usually contains programs for initializing the system (in the case of an operating system distribution, initializing the hardware, loading a stripped-down version of the system, and running the installer), an installer program (for selecting installation modes and parameters), and a set of special files containing individual parts of the system (called packages).
 
 ***Готував матеріал студент Войтенко В.***
 
