@@ -174,7 +174,7 @@ In summary, Fvwm provides users with a highly customizable and lightweight windo
 
 **Відповіді на контрольні запитання**
 <br/>
-***Готував матеріал студент***
+***Готував матеріал студент Войтенко В.***
 1. Порівняйте гіпервізори типу 1 та типу 2, яка між ними відмінність та сфера їх застосування?
 <br/>
 Type 1 and Type 2 hypervisors to perform core virtualization functions,  with varying levels of performance and efficiency.
@@ -196,11 +196,14 @@ Type 1 hypervisors are employed in enterprise settings to manage a large number 
 - License Terms Remain Unchanged: The licensing terms of the GNU GPL remain unchanged for all users who receive the software under this license.
 - Preservation of Open Source Code: All modified versions of the software distributed under the GNU GPL license must also be available in an open-source format.
 
+***Готував матеріал студент Селезень Є.***
+
 3. В чому суть програмного забезпечення з відкритим кодом?
 
 
 4. Що таке дистрибутив?
 
+***Готував матеріал студент Войтенко В.***
 
 5. Які задачі системного адміністрування можна реалізувати на базі ОС Linux?
 - Manage users and groups
@@ -213,6 +216,8 @@ Type 1 hypervisors are employed in enterprise settings to manage a large number 
 6. Як пов'язані між собою ОС Android та Linux? 
 -  The Android kernel uses the Linux kernel
 
+***Готував матеріал студент Селезень Є.***
+
 7. Основні можливості та сфера використання Embedded Linux?
 
 
@@ -220,3 +225,4 @@ Type 1 hypervisors are employed in enterprise settings to manage a large number 
 
 **Висновок**
 <br/>
+During the laboratory work, we got acquainted with different types of hypervisors, the main types of modern operating systems and virtualization when working with operating systems; gained theoretical and practical knowledge to work with Git and the GitHub website, and learned to work in the command line in more detail.
