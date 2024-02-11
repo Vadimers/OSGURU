@@ -168,7 +168,7 @@ Install VirtualBox, create a virtual machine, add carrier, install CentOS.
 
 **1. Install the necessary graphical desktop packages.**
 
-Package for GNOME: sudo yum groupinstall "GNOME Desktop"
+Package for GNOME: sudo yum groupinstall "GNOME Desktop"<br/>
 Package for KDE: sudo yum groupinstall "KDE Plasma Workspaces"
 
 **2. Install the login manager:**
