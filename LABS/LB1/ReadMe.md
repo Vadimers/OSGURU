@@ -167,6 +167,7 @@ Install VirtualBox, create a virtual machine, add carrier, install CentOS.
 2.4	Яким чином можна до установити графічні оболонки Gnome та KDE на CentOS, якщо вона вже встановлена в текстовому режимі (вкажіть необхідні команди та пакети)? 
 
 **1. Install the necessary graphical desktop packages.**
+
 Package for GNOME: sudo yum groupinstall "GNOME Desktop"
 Package for KDE: sudo yum groupinstall "KDE Plasma Workspaces"
 
