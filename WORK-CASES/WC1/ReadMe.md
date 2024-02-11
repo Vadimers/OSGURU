@@ -88,5 +88,9 @@ To view the list of commits in the repository, you can use the git log command. 
 
 4. Розмістіть свій перший колективний звіт про виконаний Work-case 1 (презентацію, текстовий файл, html-сторінку) у даному репозиторії. У git мають бути комміти від кожного учасника команди
 
+Висновок
+
+The ability to work in a team makes learning the subject much easier and more productive. We exchange experiences, learn to cooperate, negotiate, and even receive additional points for it. The skill of collaborating on a single project is extremely important in our profession, so thanks to this approach to learning, we are already preparing for future work. During the execution of WORK-CASE №1, we familiarized ourselves with the GitHub platform, learned to create a repository, and worked with Markdown formatting and HTML.
+
 [//]: # (https://itproger.com/ua/news/kratkaya-instruktsiya-po-git-osnovnie-ponyatiya-i-komandi)
 
