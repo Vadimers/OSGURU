@@ -81,12 +81,16 @@ To view the list of commits in the repository, you can use the git log command. 
 Створіть новий публічний репозиторій, який будете використовувати для додавання всіх виконаних робіт з дисципліни «Операційні системи» (якщо працюєте в команді долучіть інших учасників команди до його редакторів).
 
 <div align="center"><img src="./account1.jpg" /></div>
-<div align="center"><img src="./account2.jpg" /></div>
+<div align="center"><img src="./image_2024-02-11_23-37-07.png" /></div>
 <div align="center"><img src="./git_clone.jpg"  width="600" height="341"/></div>
 <div align="center"><img src="./git_add.jpg" /></div>
 <div align="center"><img src="./git_commit.jpg" /></div>
 
 4. Розмістіть свій перший колективний звіт про виконаний Work-case 1 (презентацію, текстовий файл, html-сторінку) у даному репозиторії. У git мають бути комміти від кожного учасника команди
+
+Висновок
+
+The ability to work in a team makes learning the subject much easier and more productive. We exchange experiences, learn to cooperate, negotiate, and even receive additional points for it. The skill of collaborating on a single project is extremely important in our profession, so thanks to this approach to learning, we are already preparing for future work. During the execution of WORK-CASE №1, we familiarized ourselves with the GitHub platform, learned to create a repository, and worked with Markdown formatting and HTML.
 
 [//]: # (https://itproger.com/ua/news/kratkaya-instruktsiya-po-git-osnovnie-ponyatiya-i-komandi)
 
