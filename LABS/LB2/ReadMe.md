@@ -73,7 +73,7 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 4. Дайте визначення наступним поняттям:
 
-*Готував матеріал студент Войтенко В.(варіант - 3) та Селезень Є.(варіант - 16)*
+***Готував матеріал студент Войтенко В.***
 
 <br/>
 
@@ -299,50 +299,94 @@ Battery optimization: Android can help you optimize your battery usage by recomm
 
 **Відповіді на контрольні запитання**
 
+***Готував матеріал студент Войтенко В.***
+
 1. Наведіть приклади серверних додатків Linux для сервера баз даних, серверів розсилки повідомлень та файлообмінників.
 
-1) Database server:
+2) Database server:
    - MySQL or MariaDB: Popular open-source relational database management system (RDBMS).
    - PostgreSQL: Another powerful relational DBMS supporting advanced SQL extensions and ACID properties.
    - MongoDB: A NoSQL database storing data in JSON-like documents.
 
-2) Mail servers:
+3) Mail servers:
    - Postfix: Popular Mail Transfer Agent (MTA) used for sending and receiving email.
    - Sendmail: Another MTA providing similar functionality to Postfix.
    - Exim: Another MTA with extensive customization and extension capabilities.
 
-3) File exchanges:
+4) File exchanges:
    - vsftpd: Very Secure FTP Daemon, a fast and secure FTP server for file transfer.
    - ProFTPD: Another powerful FTP server with many features and customization options.
    - Samba: Allows file sharing between Linux systems and Windows computers using the SMB/CIFS protocol.
 
-2. Порівняйте оболонки Bourne, C, Bourne Again (Bash), the tcsh, Korn shell (Ksh) та zsh.
+5. Порівняйте оболонки Bourne, C, Bourne Again (Bash), the tcsh, Korn shell (Ksh) та zsh.
 
-1. Bourne Shell (sh):
+6) Bourne Shell (sh):
    - One of the first Unix shells.
    - Has limited functionality compared to modern shells.
    - Used as the standard shell for many Unix systems.
 
-2. C Shell (csh):
+7) C Shell (csh):
    - Has a syntax similar to the C programming language.
    - Supports a range of useful features, such as command history and pseudographic capabilities.
 
-3. Bourne Again Shell (Bash):
+8) Bourne Again Shell (Bash):
    - Extension of the Bourne Shell with many enhancements and additional features.
    - Used by default in many modern Linux distributions.
    - Supports command history, job control, environment variables, and other useful features.
 
-4. Tcsh:
+9) Tcsh:
    - Extension of the C Shell with additional features such as autocompletion and error correction.
    - Has a similar syntax to the C Shell but with more capabilities.
 
-5. Korn Shell (Ksh):
+10) Korn Shell (Ksh):
    - Combines functionality from the Bourne Shell and C Shell.
    - Has many extensions and enhancements, including support for dynamic variables, branching, and loops.
 
-6. Z Shell (Zsh):
+11) Z Shell (Zsh):
    - Has many features that enhance user convenience and productivity.
    - Provides better autocompletion, directory management, and other advanced capabilities compared to other shells.
    - Often used as an alternative shell to Bash on Unix systems.
 
-Each of these shells has its own characteristics
+12. Чому використання віртуалізації зараз стало таким актуальним?
+   
+The use of virtualization has become relevant for several reasons:
+
+**Efficient resource utilization:** Virtualization allows better utilization of computational resources by sharing physical servers to run multiple virtual machines.
+
+**Cost savings:** Through virtualization, companies can reduce expenses on hardware, electricity, and space since fewer physical servers are needed to deploy applications.
+
+**Greater flexibility and mobility:** Virtualization enables quick scaling and deployment of new virtual environments without significant delays and time costs.
+
+**Enhanced security:** Virtualization enables the isolation of different applications and environments, reducing vulnerability risks and data leaks.
+
+**Software testing and development:** Virtualization provides developers with a convenient way to test software in various environments without the need for physical devices.
+
+**Enablement of heterogeneous environments:** Virtualization allows running different operating systems and applications on a single physical server, making it easier to manage and support diverse environments.
+
+Overall, virtualization enables companies to optimize their computational resources, increase productivity, and reduce costs, making it highly relevant for modern organizations.
+
+10.  ***Чи можлива реєстрація в системі Linux декілька разів під одним і тим же системним ім’ям? Які переваги це може надати?
+
+In Linux, it's possible to register multiple users under the same system username. This is achieved by creating different accounts with the same username (username), but with unique user identifiers (user ID or UID).
+<br/>
+
+Advantages:
+
+Software testing:
+<br/>
+You can run multiple instances of an application under the same user to test different scenarios.
+<br/>
+
+Debugging problems:
+<br/>
+You can run two SSH sessions under the same user to debug issues with a remote server.
+<br/>
+
+Resource sharing:
+<br/>
+It is possible to allow multiple users to use the same account to access shared resources such as files and printers.
+
+
+***Готував матеріал студент Селезень Є.***
+
+**Висновок**
