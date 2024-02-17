@@ -88,6 +88,217 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 ***Готував матеріал студент Войтенко В.***
 
+
+**Хід роботи**
+
+1. Робота в графічному режимі в ОС сімейства Linux (робота з інтернет-джерелами):
+
+   1.1. Оберіть графічну оболонку для ОС сімейства Linux, яку ви хочете розглянути. Розгляньте
+структуру робочого простору користувача, та опишіть основні його компоненти (***показано
+основні компоненти оболонки Gnome):
+
+![Application](./images/Application.jpg)
+
+<h3 align="center"><b>Application</b></h3>
+
+<br/>
+
+<br/>
+
+![Places](./images/Places.jpg)
+
+<h3 align="center"><b>Places</b></h3>
+
+<br/>
+
+<br/>
+
+![Activity overview](./images/Activity_overview.jpg)
+
+<h3 align="center"><b>Activity overview</b></h3>
+
+<br/>
+
+<br/>
+
+&nbsp; &nbsp; &nbsp; 1.2 Запуск програм. Дослідіть можливості запуску додатків різними способами (описати спосіб і по-
+можливості показати скріншоти):
+
+![Run via Favorites](./images/Run_via_Favorites.jpg)
+
+<h3 align="center"><b>Run via Favorites</b></h3>
+
+<br/>
+
+<br/>
+
+![Search in menu](./images/Search_in_menu.jpg)
+
+<h3 align="center"><b>Search in menu</b></h3>
+
+<br/>
+
+<br/>
+
+![Search in menu 2](./images/Search_in_menu_2.jpg)
+
+<h3 align="center"><b>Next step to search in menu</b></h3>
+
+<br/>
+
+<br/>
+
+![Run via file](./images/Run_via_file.jpg)
+
+<h3 align="center"><b>Run via widget</b></h3>
+
+<br/>
+
+<br/>
+
+![Run via global menu](./images/Run_via_global_menu.jpg)
+
+<h3 align="center"><b>Run via global menu</b></h3>
+
+<br/>
+
+<br/>
+
+![Run via terminal](./images/Run_via_terminal.jpg)
+
+<h3 align="center"><b>Run via terminal</b></h3>
+
+<br/>
+
+<br/>
+
+&nbsp; &nbsp; &nbsp; 1.3. Вихід з системи та завершення роботи в Linux. Як виконати в графічному інтерфейсі наступні дії
+(наведіть скріни):
+
+- Зміна користувача на root
+
+![Change user](./images/Change_user.jpg)
+
+<h3 align="center"><b>Change user</b></h3>
+
+<br/>
+
+<br/>
+
+![Change user 2](./images/Change_user_2.jpg)
+
+<h3 align="center"><b>Next step to change user</b></h3>
+
+<br/>
+
+<br/>
+
+![Change user 3](./images/Change_user_3.jpg)
+
+<h3 align="center"><b>Next step to change user</b></h3>
+
+<br/>
+
+<br/>
+
+![Change user 4](./images/Change_user_4.jpg)
+
+<h3 align="center"><b>Next step to change user</b></h3>
+
+<br/>
+
+<br/>
+
+![Change user 5](./images/Change_user_5.jpg)
+
+<h3 align="center"><b>Next step to change user</b></h3>
+
+<br/>
+
+<br/>
+
+- Перезавантаження системи і вимкнення системи
+
+![Restart and power off](./images/Restart_and_power_off.jpg)
+
+<h3 align="center"><b>Restart and power off system</b></h3>
+
+<br/>
+
+<br/>
+
+![Restart and power off 2](./images/Restart_and_power_off_2.jpg)
+
+<h3 align="center"><b>Next step to restart and power off system</b></h3>
+
+<br/>
+
+<br/>
+
+2. Робота в середовищі мобільної ОС.
+
+   2.1. Опишіть головне меню вашої мобільної ОС, який графічний інтерфейс вона використовує?
+Here are some of the key features of the Android main menu:
+
+   **Icon grid:** The home screen is home to app icons that you can move, organize, and delete.
+   <br/>
+   **Quick access bar:** At the top of the screen is the quick access bar where you can find icons for Wi-Fi, Bluetooth, screen brightness, and other settings.
+   <br/>
+   **Widget:** You can add widgets to the Home screen to get quick access to information and features such as weather, calendar, news, and more.
+   <br/>
+   **Folder:** You can create folders to organize similar apps or widgets.
+   <br/>
+   **Search:** You can use the search bar to find apps, contacts, files, and other data on your device.
+   <br/>
+   **Android's graphical user interface**
+
+   Android uses ***Material Design***, a design language developed by Google. Material Design focuses on simplicity, clarity, and intuitiveness. It uses smooth animations, shadows, and vibrant colors to make the user interface feel pleasant and comfortable.
+
+&nbsp; &nbsp; &nbsp; 2.2. Опишіть меню налаштувань компонентів мобільного телефону.
+
+   ![My phone setting](./images/Setting.jpg)
+
+<h3 align="center"><b>My phone setting</b></h3>
+
+&nbsp; &nbsp; &nbsp; 2.3. Використання комбінацій клавіш для виконання спеціальних дій.
+
+   *Go to the Home screen:* Press the Home key.
+   <br/>
+   *Open your recent apps:* Press the View key.
+   <br/>
+   *Take a screenshot:* Press the Volume Down and Power keys simultaneously.
+   <br/>
+   *Turn Do Not Disturb mode on/off:* Press the Volume Down key for 3 seconds.
+   <br/>
+   *Turn off the phone:* Press the Power key for 10 seconds.
+   <br/>
+   *Restart the phone:* Hold down the Power and Volume Down keys for 7 seconds.
+   
+   Android has a gesture control feature.
+
+   Gestures can be different: resetting, pressing, moving a finger along a certain trajectory, etc. Each smartphone manufacturer may have its own gestures and settings.
+
+&nbsp; &nbsp; &nbsp; 2.4. Вхід у систему та завершення роботи пристрою. Особливості налаштувань живлення батареї.
+
+Logging in to the system:
+
+а)
+<br/>
+Power on: Hold down the Power key for a few seconds.
+Unlock: Enter PIN, password, pattern key or use biometric authentication (fingerprint, face and eyes recognition)
+<br/>
+Turn off: Hold down the Power key for a few seconds.
+
+b)
+<br/>
+Power saving mode: This mode helps extend battery life by limiting background activity and some functions.
+Adaptive Battery: Android automatically learns your usage habits and optimizes your battery life by limiting battery usage to unused apps.
+<br/>
+Battery usage statistics: You can see which apps consume the most battery power.
+Battery optimization: Android can help you optimize your battery usage by recommending settings and actions.
+
+**Відповіді на контрольні запитання**
+
 1. Наведіть приклади серверних додатків Linux для сервера баз даних, серверів розсилки повідомлень та файлообмінників.
 
 1) Database server:
@@ -105,3 +316,33 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
    - ProFTPD: Another powerful FTP server with many features and customization options.
    - Samba: Allows file sharing between Linux systems and Windows computers using the SMB/CIFS protocol.
 
+2. Порівняйте оболонки Bourne, C, Bourne Again (Bash), the tcsh, Korn shell (Ksh) та zsh.
+
+1. Bourne Shell (sh):
+   - One of the first Unix shells.
+   - Has limited functionality compared to modern shells.
+   - Used as the standard shell for many Unix systems.
+
+2. C Shell (csh):
+   - Has a syntax similar to the C programming language.
+   - Supports a range of useful features, such as command history and pseudographic capabilities.
+
+3. Bourne Again Shell (Bash):
+   - Extension of the Bourne Shell with many enhancements and additional features.
+   - Used by default in many modern Linux distributions.
+   - Supports command history, job control, environment variables, and other useful features.
+
+4. Tcsh:
+   - Extension of the C Shell with additional features such as autocompletion and error correction.
+   - Has a similar syntax to the C Shell but with more capabilities.
+
+5. Korn Shell (Ksh):
+   - Combines functionality from the Bourne Shell and C Shell.
+   - Has many extensions and enhancements, including support for dynamic variables, branching, and loops.
+
+6. Z Shell (Zsh):
+   - Has many features that enhance user convenience and productivity.
+   - Provides better autocompletion, directory management, and other advanced capabilities compared to other shells.
+   - Often used as an alternative shell to Bash on Unix systems.
+
+Each of these shells has its own characteristics
