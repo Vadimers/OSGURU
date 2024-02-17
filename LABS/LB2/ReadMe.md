@@ -303,51 +303,51 @@ Battery optimization: Android can help you optimize your battery usage by recomm
 
 1. Наведіть приклади серверних додатків Linux для сервера баз даних, серверів розсилки повідомлень та файлообмінників.
 
-2) Database server:
+1) Database server:
    - MySQL or MariaDB: Popular open-source relational database management system (RDBMS).
    - PostgreSQL: Another powerful relational DBMS supporting advanced SQL extensions and ACID properties.
    - MongoDB: A NoSQL database storing data in JSON-like documents.
 
-3) Mail servers:
+2) Mail servers:
    - Postfix: Popular Mail Transfer Agent (MTA) used for sending and receiving email.
    - Sendmail: Another MTA providing similar functionality to Postfix.
    - Exim: Another MTA with extensive customization and extension capabilities.
 
-4) File exchanges:
+3) File exchanges:
    - vsftpd: Very Secure FTP Daemon, a fast and secure FTP server for file transfer.
    - ProFTPD: Another powerful FTP server with many features and customization options.
    - Samba: Allows file sharing between Linux systems and Windows computers using the SMB/CIFS protocol.
 
-5. Порівняйте оболонки Bourne, C, Bourne Again (Bash), the tcsh, Korn shell (Ksh) та zsh.
+2. Порівняйте оболонки Bourne, C, Bourne Again (Bash), the tcsh, Korn shell (Ksh) та zsh.
 
-6) Bourne Shell (sh):
+1) Bourne Shell (sh):
    - One of the first Unix shells.
    - Has limited functionality compared to modern shells.
    - Used as the standard shell for many Unix systems.
 
-7) C Shell (csh):
+2) C Shell (csh):
    - Has a syntax similar to the C programming language.
    - Supports a range of useful features, such as command history and pseudographic capabilities.
 
-8) Bourne Again Shell (Bash):
+3) Bourne Again Shell (Bash):
    - Extension of the Bourne Shell with many enhancements and additional features.
    - Used by default in many modern Linux distributions.
    - Supports command history, job control, environment variables, and other useful features.
 
-9) Tcsh:
+4) Tcsh:
    - Extension of the C Shell with additional features such as autocompletion and error correction.
    - Has a similar syntax to the C Shell but with more capabilities.
 
-10) Korn Shell (Ksh):
+5) Korn Shell (Ksh):
    - Combines functionality from the Bourne Shell and C Shell.
    - Has many extensions and enhancements, including support for dynamic variables, branching, and loops.
 
-11) Z Shell (Zsh):
+6) Z Shell (Zsh):
    - Has many features that enhance user convenience and productivity.
    - Provides better autocompletion, directory management, and other advanced capabilities compared to other shells.
    - Often used as an alternative shell to Bash on Unix systems.
 
-12. Чому використання віртуалізації зараз стало таким актуальним?
+5. Чому використання віртуалізації зараз стало таким актуальним?
    
 The use of virtualization has become relevant for several reasons:
 
@@ -365,7 +365,7 @@ The use of virtualization has become relevant for several reasons:
 
 Overall, virtualization enables companies to optimize their computational resources, increase productivity, and reduce costs, making it highly relevant for modern organizations.
 
-10.  ***Чи можлива реєстрація в системі Linux декілька разів під одним і тим же системним ім’ям? Які переваги це може надати?
+10. ***Чи можлива реєстрація в системі Linux декілька разів під одним і тим же системним ім’ям? Які переваги це може надати?
 
 In Linux, it's possible to register multiple users under the same system username. This is achieved by creating different accounts with the same username (username), but with unique user identifiers (user ID or UID).
 <br/>
