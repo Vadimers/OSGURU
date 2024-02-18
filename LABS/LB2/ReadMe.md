@@ -515,4 +515,9 @@ Yes, in Linux, it is possible to have multiple login sessions under the same sys
 
 **Висновок**
 
-In the course of the laboratory work, we familiarized ourselves with the Linux interface and the structure of the mobile OS of our smartphones.
+
+During the laboratory work, our understanding of technology significantly broadened as we delved into both the Linux interface and the intricate structure of the mobile operating system (OS) present in our smartphones. This hands-on experience provided us with invaluable insights into the fundamental workings of these systems, empowering us with practical knowledge that is essential in today's digital landscape.
+
+Exploring the Linux interface allowed us to comprehend the underlying principles of this powerful operating system, which serves as the backbone for a vast array of computing devices and systems worldwide. By navigating through its commands, file structures, and functionalities, we gained a deeper appreciation for its flexibility, efficiency, and robustness.
+
+Additionally, dissecting the mobile OS architecture of our smartphones enabled us to grasp the intricacies of modern mobile computing. Understanding how various components such as the kernel, drivers, user interface, and applications interact within this ecosystem gave us a holistic view of the technology that has become integral to our daily lives.
