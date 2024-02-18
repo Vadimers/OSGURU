@@ -389,4 +389,130 @@ It is possible to allow multiple users to use the same account to access shared 
 
 ***Готував матеріал студент Селезень Є.***
 
+3. Для чого потрібен менеджер пакетів. Які менеджери пакетів ви знаєте у Linux?
+
+A package manager is a software tool used to automate the process of installing, upgrading, configuring, and removing software packages on a computer system. It simplifies the management of software dependencies and ensures that the software installed on a system is up-to-date and properly configured.
+
+In Linux, there are several package managers, each commonly associated with a particular distribution:
+
+**APT (Advanced Package Tool):** Used primarily in Debian-based distributions such as Debian, Ubuntu, Linux Mint, etc. The main commands are apt-get and apt.
+
+**DPKG:** Although not technically a package manager itself, DPKG is the underlying package management system used by APT. It deals with the installation and removal of Debian packages (.deb files).
+
+**RPM (RPM Package Manager):** Used in Red Hat-based distributions such as Red Hat Enterprise Linux (RHEL), Fedora, CentOS, openSUSE, etc. The main command is rpm.
+
+**YUM (Yellowdog Updater, Modified):** A package management tool that relies on RPM packages, used primarily in Red Hat-based distributions. It has been largely replaced by DNF in newer versions of Fedora and CentOS.
+
+**DNF (Dandified YUM):** The next-generation version of YUM, used in newer versions of Fedora, CentOS, and other RPM-based distributions. It's more feature-rich and performs better than YUM.
+
+**ZYpp:** Used in openSUSE and SUSE Linux Enterprise distributions.
+
+**Pacman:** Used in Arch Linux and its derivatives such as Manjaro. It's a simple and powerful package manager.
+
+**Portage:** Used in Gentoo Linux. Portage is based on source code, and it compiles software locally based on the user's preferences and configurations.
+
+These package managers, along with their associated tools, make it easy for Linux users to manage software installations, updates, and removals in a consistent and efficient manner.
+
+4. Які засоби безпеки використовуються в Linux? 
+
+Linux incorporates various security features at different levels to ensure the integrity, confidentiality, and availability of the system and its resources. Some of the key security features in Linux include:
+
+**User and Group Permissions:** Linux uses a robust permission system where each file, directory, and device has associated permissions for the owner, group, and other users. This helps control access to resources.
+
+**Firewall (iptables/firewalld):** Linux distributions typically include firewall software such as iptables or firewalld, which allow administrators to define rules for packet filtering and network address translation (NAT).
+
+**SELinux (Security-Enhanced Linux):** Developed by the NSA, SELinux provides mandatory access controls (MAC) to restrict the actions that users and processes can perform on the system. It adds an extra layer of security beyond traditional Linux permissions.
+
+**AppArmor:** Similar to SELinux, AppArmor is a Linux security module that confines individual programs to a set of rules that define what files, capabilities, and network access they can use.
+
+**Kernel Hardening:** The Linux kernel includes various security features such as Address Space Layout Randomization (ASLR), which randomizes the memory addresses used by processes to make it harder for attackers to predict target locations.
+
+**Secure Boot:** Secure Boot is a feature supported by many modern Linux distributions and UEFI firmware that ensures only trusted software can run during the boot process, thereby protecting against boot-time malware.
+
+**Full Disk Encryption (e.g., LUKS):** Linux supports full disk encryption using tools like LUKS (Linux Unified Key Setup), which encrypts entire partitions or disks to protect data at rest.
+
+**Package Signing:** Package managers in Linux distributions typically use digital signatures to verify the authenticity and integrity of software packages before installation, mitigating the risk of installing tampered or malicious software.
+
+**Audit Framework:** Linux includes an audit subsystem that allows administrators to track and monitor system activities, helping to detect and investigate security breaches or policy violations.
+
+**Secure Shell (SSH):** Linux distributions often come with SSH, which provides encrypted communication for securely accessing remote systems and transferring files.
+
+6. Як ви розумієте поняття контейнеризації?
+
+Containerization is a method of packaging, distributing, and running software applications and their dependencies in isolated environments called containers. Each container encapsulates the application, its runtime, libraries, and other dependencies, ensuring consistency and portability across different computing environments.
+
+7. Які переваги/недоліки використання програмного забезпечення з відкритим кодом? 
+
+Using open-source software offers several advantages and disadvantages:
+
+Advantages:
+
+**Cost-Effectiveness:** Open-source software is typically free to use, which can significantly reduce upfront costs for individuals, businesses, and organizations compared to proprietary alternatives. There are no licensing fees, and users can download, install, and modify the software without incurring additional expenses.
+
+**Community Support:** Open-source projects often have vibrant communities of developers, users, and contributors who collaborate to improve the software, provide support, and share knowledge. This community-driven model fosters innovation, fosters collaboration, and ensures the longevity and sustainability of the software.
+
+**Transparency and Customization:** Open-source software provides access to its source code, allowing users to inspect, modify, and customize the software to meet their specific needs and preferences. This transparency promotes trust, security, and flexibility, empowering users to tailor the software to their unique requirements without relying on proprietary vendors.
+
+**Security and Reliability:** Open-source software benefits from peer review and scrutiny by a large community of developers, which can lead to faster identification and resolution of security vulnerabilities and bugs. Additionally, users have the freedom to audit the code, implement security enhancements, and contribute patches, thereby improving the overall security and reliability of the software.
+
+**Interoperability and Compatibility:** Open-source software often adheres to open standards and protocols, promoting interoperability and compatibility with other software and systems. This compatibility reduces vendor lock-in, enables seamless integration with existing infrastructure, and facilitates data portability and interchangeability.
+
+Disadvantages:
+
+**Lack of Official Support:** While open-source software often benefits from community-driven support forums, documentation, and resources, it may lack the formalized support and service level agreements (SLAs) offered by proprietary vendors. This can pose challenges for organizations requiring dedicated technical assistance, maintenance, and troubleshooting.
+
+**Complexity and Learning Curve:** Some open-source software solutions, particularly those with extensive customization options or advanced features, may have a steeper learning curve for users unfamiliar with the underlying technologies or programming languages. This complexity can require additional time, resources, and expertise to deploy, configure, and maintain effectively.
+
+**Fragmentation and Compatibility Issues:** The decentralized nature of open-source development can lead to fragmentation, with multiple competing versions, distributions, and forks of the same software. This fragmentation may result in compatibility issues, interoperability challenges, and divergent ecosystems, making it difficult for users to navigate and choose the most suitable solution.
+
+**Quality and Documentation Variability:** The quality and documentation of open-source software can vary widely depending on factors such as community size, project governance, and maintenance efforts. Some projects may lack comprehensive documentation, thorough testing, or regular updates, leading to inconsistencies, usability issues, and reliability concerns for users.
+
+**Legal and Licensing Considerations:** While open-source licenses grant users certain freedoms and rights, they also impose obligations and restrictions that users must adhere to. Users must understand and comply with the terms of the applicable open-source licenses, which can vary in complexity and compatibility with proprietary software licenses. Failure to comply with license requirements can result in legal risks, compliance issues, and intellectual property disputes.
+
+Overall, while open-source software offers numerous benefits such as cost savings, community support, and customization, it also presents challenges related to support, complexity, compatibility, quality, and legal considerations that users must carefully evaluate and address to maximize the value and effectiveness of open-source solutions.
+
+8. Скільки активних віртуальних консолей (терміналів) може бути у процесі роботи Linux за замовчуванням? Як їх викликати та між ними перемикатися? Наведіть приклади?
+
+In a default Linux system, typically, there are **six** virtual consoles (also known as virtual terminals) available for user interaction. These virtual consoles are numbered from 1 to 6, and they can be accessed using the keyboard shortcuts Ctrl + Alt + F1 through Ctrl + Alt + F6, respectively. Each virtual console provides a text-based interface for logging in, running commands, and interacting with the system.
+
+To switch between virtual consoles, you can use the keyboard shortcuts mentioned above. For example, to switch to the first virtual console, you would press Ctrl + Alt + F1, and to switch to the second virtual console, you would press Ctrl + Alt + F2, and so on.
+
+Here's a brief overview of how to access and switch between virtual consoles:
+
+**Ctrl + Alt + F1:** Switch to the first virtual console.
+**Ctrl + Alt + F2:** Switch to the second virtual console.
+**Ctrl + Alt + F3:** Switch to the third virtual console.
+**Ctrl + Alt + F4:** Switch to the fourth virtual console.
+**Ctrl + Alt + F5:** Switch to the fifth virtual console.
+**Ctrl + Alt + F6:** Switch to the sixth virtual console.
+These virtual consoles provide independent login sessions, allowing multiple users to log in simultaneously and perform tasks separately. They are useful for troubleshooting, system maintenance, and running commands without the need for a graphical user interface.
+
+Additionally, many Linux distributions also provide a seventh virtual console, accessible using Ctrl + Alt + F7, which typically runs the graphical user interface (GUI) session. This GUI session is where the desktop environment or window manager is displayed, allowing users to interact with the system using a graphical interface.
+
+9. Яка віртуальна консоль (термінал) виконує функцію графічної оболонки?
+
+In most Linux distributions, the virtual console (terminal) that serves as the graphical shell is typically accessed via Ctrl + Alt + F7. This virtual console hosts the graphical user interface (GUI) session, where the desktop environment or window manager is displayed.
+
+When you boot into a Linux system with a graphical desktop environment installed (such as GNOME, KDE, Xfce, etc.), the system starts a display manager (such as GDM, LightDM, SDDM, etc.) on one of the virtual consoles (often on the seventh, accessed via Ctrl + Alt + F7). The display manager prompts the user to log in and then launches the desktop environment or window manager, which provides the graphical shell.
+
+Users can interact with the graphical shell by using a mouse, keyboard, and graphical elements such as windows, icons, menus, etc., rather than the text-based interface provided by the other virtual consoles.
+
+It's worth noting that the specific virtual console used for the graphical shell may vary depending on the Linux distribution and configuration. Some distributions may use a different virtual console for the graphical shell, but Ctrl + Alt + F7 is a common default.
+
+10. Чи можлива реєстрація в системі Linux декілька разів під одним і тим же системним ім’ям? Які переваги це може надати?
+
+Yes, in Linux, it is possible to have multiple login sessions under the same system username. This capability allows users to have concurrent sessions running simultaneously, each with its own environment and set of processes. There are several advantages to this:
+
+**Concurrent Workflows:** Having multiple login sessions under the same username enables users to work on different tasks or projects simultaneously without interrupting each other. Each session maintains its own set of windows, applications, and workspaces, allowing for efficient multitasking.
+
+**Remote Access:** Users can leverage multiple login sessions when accessing the system remotely via SSH or other remote access protocols. This enables users to have several terminal sessions open concurrently, each performing different tasks or monitoring various aspects of the system.
+
+**Session Persistence:** If a user's session is interrupted or terminated unexpectedly (e.g., due to network issues or system reboots), having multiple login sessions allows the user to resume their work from another session without losing unsaved data or progress.
+
+**Resource Management:** Users can distribute their computing tasks across multiple login sessions to better utilize system resources. For example, CPU-intensive tasks can be run in one session while leaving another session available for less resource-intensive activities.
+
+**Multiuser Systems:** On multiuser systems where multiple users share the same machine, allowing multiple login sessions under the same username can help streamline user management and resource allocation. Users can log in from different locations or terminals and access their own personalized environments and files.
+
 **Висновок**
+
+In the course of the laboratory work, we familiarized ourselves with the Linux interface and the structure of the mobile OS of our smartphones.
