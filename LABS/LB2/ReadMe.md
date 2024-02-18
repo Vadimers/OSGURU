@@ -479,12 +479,13 @@ To switch between virtual consoles, you can use the keyboard shortcuts mentioned
 
 Here's a brief overview of how to access and switch between virtual consoles:
 
-**Ctrl + Alt + F1:** Switch to the first virtual console.
-**Ctrl + Alt + F2:** Switch to the second virtual console.
-**Ctrl + Alt + F3:** Switch to the third virtual console.
-**Ctrl + Alt + F4:** Switch to the fourth virtual console.
-**Ctrl + Alt + F5:** Switch to the fifth virtual console.
-**Ctrl + Alt + F6:** Switch to the sixth virtual console.
+**Ctrl + Alt + F1:** Switch to the first virtual console. <br/>
+**Ctrl + Alt + F2:** Switch to the second virtual console. <br/>
+**Ctrl + Alt + F3:** Switch to the third virtual console. <br/>
+**Ctrl + Alt + F4:** Switch to the fourth virtual console. <br/>
+**Ctrl + Alt + F5:** Switch to the fifth virtual console. <br/>
+**Ctrl + Alt + F6:** Switch to the sixth virtual console. <br/>
+
 These virtual consoles provide independent login sessions, allowing multiple users to log in simultaneously and perform tasks separately. They are useful for troubleshooting, system maintenance, and running commands without the need for a graphical user interface.
 
 Additionally, many Linux distributions also provide a seventh virtual console, accessible using Ctrl + Alt + F7, which typically runs the graphical user interface (GUI) session. This GUI session is where the desktop environment or window manager is displayed, allowing users to interact with the system using a graphical interface.
