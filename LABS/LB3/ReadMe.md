@@ -341,13 +341,30 @@ Control flow modifiers (break, continue, return, exit): Used to alter the flow o
 
 In the Bash prompt line, the characters $ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
 
-$ Prompt: When the prompt ends with $, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.
-# Prompt: When the prompt ends with #, it indicates that the current shell session is running with superuser or root privileges. This is typically seen when you are logged in as the system administrator or have escalated your privileges using sudo.
+$Prompt: When the prompt ends with $, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.</br>
+#Prompt: When the prompt ends with #, it indicates that the current shell session is running with superuser or root privileges. This is typically seen when you are logged in as the system administrator or have escalated your privileges using sudo.</br>
 The difference between these prompts is crucial because it helps users quickly discern whether they are operating with regular user permissions or with elevated privileges that grant access to system-wide configurations and operations.
 
+9. Яке призначення команд whereis та locate? Яка між ними відмінність?
 
+The whereis and locate commands in Unix-like operating systems serve similar purposes, but they have different methods of searching for files and directories.</br>
+Purpose:</br>
+whereis: The whereis command is used to locate the binary, source, and manual page files for a specified command. It provides information about the location of executable files, source code, and documentation related to a given command.
 
-10. Яке призначення команд whereis та locate? Яка між ними відмінність?
+locate: The locate command is used to find files by name. It searches through a pre-built database of files and directories on the system to quickly locate the specified file or files matching a given pattern.
+
+Difference:</br>
+whereis:
+Searches for executable files, source code, and manual pages related to a specified command.
+It does not search the entire filesystem but rather specific directories where executables, sources, and manuals are typically stored (like /bin, /usr/bin, /usr/local/bin, etc.).
+The whereis command is fast but may not find files that are located outside of the predefined search directories.
+
+locate:
+Searches for files and directories by name.
+It searches the entire filesystem or specific directories and builds an index (or database) of filenames in advance, which allows for fast searches.
+The locate command is more comprehensive in searching for files but may not always display the most up-to-date information since it relies on the pre-built index, which is typically updated periodically (e.g., daily) by a system cron job.</br>
+In summary, whereis is used to locate various components related to a specific command, while locate is used to quickly find files and directories by name. The choice between them depends on the specific use case and whether you need to locate a command or simply find a file on the system.
+
 
 
 
