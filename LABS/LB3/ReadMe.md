@@ -277,4 +277,6 @@ Associative arrays: unordered collections of data where each element has a key a
 8. Яке призначення команд whereis та locate? Яка між ними відмінність?
 
 
+
+
 **Висновок:**
