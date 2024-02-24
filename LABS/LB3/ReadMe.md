@@ -180,7 +180,7 @@ Associative arrays: unordered collections of data where each element has a key a
 |                               ls -l /tmp                   | Using the /tmp argument in combination with the -l option in the ls command command allows you to display detailed information about the files in the /tmp directory |
 |                               history                      | To view the entire history list of a terminal |
 |                               !!                           | To execute the most recent command type |
-|                            $PATH                           | The PATH variable lists all the places that the system can look for programs to execute |
+|                            \$PATH                           | The PATH variable lists all the places that the system can look for programs to execute |
 |                       type command                         | Command can be used to determine information about command type |
 |                             cd                             | Change directory |
 |                            which                           | Command searches for the location of a command by searching the PATH variable |
@@ -217,7 +217,7 @@ Associative arrays: unordered collections of data where each element has a key a
 ![Reesult_function](./images/result_function.jpg)
 
 2.3. Робота з лапками (Quoting) в терміналі. Виведіть в командному рядку наступні речення:
-- “We create such variables as $var_name1, $var_name2, $var_name3, which stored our names Name1, Name2, Name3” (у реченні спочатку виводимо назви змінних, а потім їх вміст)
+- “We create such variables as \$var_name1, \$var_name2, \$var_name3, which stored our names Name1, Name2, Name3” (у реченні спочатку виводимо назви змінних, а потім їх вміст)
 
 ![2_3_a](./images/2_3_a.jpg)
 
@@ -313,12 +313,12 @@ Environment variables are dynamic named values that affect the processes running
    
 3. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
 
-$PS1 is an environment variable in the Bash shell that defines the primary prompt string. It determines how the command prompt appears in the terminal before each command is entered. The default value of $PS1 typically includes information such as the username, hostname, current working directory, and other relevant details. You can view the contents of $PS1 by echoing it in the terminal: *echo $PS1*
+$PS1 is an environment variable in the Bash shell that defines the primary prompt string. It determines how the command prompt appears in the terminal before each command is entered. The default value of $PS1 typically includes information such as the username, hostname, current working directory, and other relevant details. You can view the contents of \$PS1 by echoing it in the terminal: *echo $PS1*
 
-4. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
+4. Як можна змінити значення змінної \$PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
 
 You can change the value of \$PS1 directly in the terminal. For example, to set a new prompt that only displays the current directory: PS1='\w\$ '
-After changing $PS1, the bash prompt line (the line before each command) will reflect the updated value according to your specification.
+After changing \$PS1, the bash prompt line (the line before each command) will reflect the updated value according to your specification.
 To change the value of \$PS1 permanently, not just for the current session, you can add the assignment to your shell configuration file such as ~/.bashrc or ~/.bash_profile. This ensures that the modified prompt persists across sessions.
 
 5. Для чого використовують лапки в оболонці Bash?
@@ -336,7 +336,7 @@ Looping statements (for, while, until): Used to execute code repeatedly until a 
 Case statements (case, esac): Used to perform different actions based on the value of a variable or expression.<br/>
 Control flow modifiers (break, continue, return, exit): Used to alter the flow of control within loops, functions, or scripts.
 
-8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #?
+8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ \$ чи #?
 
 In the Bash prompt line, the characters \$ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
 
