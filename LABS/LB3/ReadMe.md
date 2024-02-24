@@ -253,7 +253,54 @@ Associative arrays: unordered collections of data where each element has a key a
 
 **Контрольні запитання:**
 1. Які типи команд існують в оболонці Bash?
-   
+   **ls Command** - The ls (list) command is used to list directories or files. By default (i.e., running ls with no options at all) the command will return the directories and files of the current directory, excluding any hidden files. Some of the most useful options are:</br>
+*ls -a*: List all the files in the current directory including hidden files too
+*ls -l*: Long listing of all the files and their size in the current directory</br>
+**cd Command** - The cd (change directory) command is used to navigate the directory tree structure.</br>
+**rm Command** - The rm (remove) command is used to delete files, directories or even symbolic links from your file system. Some of the most useful options are:</br>
+*rm-i*: Remove all the files in the directory but let the user confirm before deleting it.
+*rm-r*: Remove non-empty directories including all the files within them.
+*rm-f*: Remove files or directories without prompting even if they are write-protected — the f stands for force.</br>
+**mv Command** - The mv (move) command is used to move one or more directories or files from one location in the file system to another.</br>
+**cp Command** - Cp is a utility that lets you copy files or directories within the file system. Some of the most useful options are:</br>
+*cp -u file1.txt file1_final.txt*: Copy the content of file1.txt into file1_final.txt only if the former (source) is newer than the latter (destination).
+*cp -R myDir/ myDir_BACKUP*: Copy directories
+*cp -p file1.txt file1_final.txt*: Copy file1.txt and preserve ownership</br>
+**mkdir Command** - The mkdir command is useful when it comes to creating new directories in the file system.</br>
+**pwd Command** - The pwd (print working directory) command can be used to report the absolute path of the current working directory.</br>
+**touch Command** - The touch command allows you to create new empty files or update the time stamp on existing files or directories. If you use touch with files that already exist, then the command will just update their time stamps. If the files do not exist, then this command will simply create them.
+Some of the most useful options are:</br>
+*touch -c file1.txt*: If file file1.txt already exists, then this command will update the file’s time stamps. Otherwise, it will do nothing.
+*touch -a file1.txt*: Updates only the access time stamp of the file.
+*touch -m file1.txt*: Updates only the modification time of the file.</br>
+**cat Command** - Cat is a very commonly used command that allows users to read concatenate or write file contents to the standard output.
+Some of the most useful options are:</br>
+*cat-n file1.txt*: Display the contents of the file file1.txt along with line numbers.
+*cat-T file1.txt*: Display the contents of the file file1.txt and distinguish tabs and spaces (tabs will be displayed as ^I in the output).</br>
+**less Command** - The less command lets you display the contents of a file one page at a time. Less won’t read the entire file when it is being called; thus, it leads to way faster load times.
+Some of the most useful options are:</br>
+*less-N file1.txt*: Display the content (first page) of the file file1.txtand show line numbers.
+*less-X file1.txt*: By default, when you exit less, the content of the file will be cleared from the command line. If you want to exit but also keep the content of the file on the screen use the -X option.</br>
+**more Command** - The more command can also be used for displaying the content of a file in the command line. In contrast to less, this command loads the entire file at once, which is why less seems faster.
+Some of the most useful options are:</br>
+*more -p file1.txt*: Clear the command line screen and then display the content of file1.txt
+*more +100 file1.txt*: Display the content of file1.txt starting from the 100th line onwards.</br>
+grep Command - The grep (global regular expression) command is useful when you wish to search for a particular string in files.
+Some of the most useful options are:
+grep-v Andrew employees.txt: Invert match Andrew in employees.txt. In other words, display all the lines that do not match the pattern Andrew.
+grep-r Andrew dirName/: Recursively search for pattern Andrew in all files in the specified directory dirName
+grep-i Andrew employees.txt: Performs a case-insensitive search.
+curl Command - The curl command is used to download or upload data using protocols such as FTP, SFTP, HTTP and HTTPS.
+which Command - The which command is used to identify and report the location of the provided executable. For instance, you may wish to see the location of the executable when calling python3.
+top Command - The top command can help you monitor running processes and the resources (such as memory) they are currently using.
+Some of the most useful options are:
+top-u myuser: Display processes for the user myuser.
+history Command - The history command displays the history of the commands that you’ve recently run.
+Some of the most useful options are:
+history-5: Display the last five commands.
+history-c: Clear the history list.
+history-d 10 20: Delete lines 10 to 20 from the history list.
+
 
 2. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
    
