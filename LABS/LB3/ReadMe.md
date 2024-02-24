@@ -340,7 +340,7 @@ Control flow modifiers (break, continue, return, exit): Used to alter the flow o
 
 In the Bash prompt line, the characters $ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
 
-$Prompt: When the prompt ends with $, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.</br>
+\$Prompt: When the prompt ends with \$, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.</br>
 #Prompt: When the prompt ends with #, it indicates that the current shell session is running with superuser or root privileges. This is typically seen when you are logged in as the system administrator or have escalated your privileges using sudo.</br>
 The difference between these prompts is crucial because it helps users quickly discern whether they are operating with regular user permissions or with elevated privileges that grant access to system-wide configurations and operations.
 
