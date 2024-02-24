@@ -254,7 +254,7 @@ Associative arrays: unordered collections of data where each element has a key a
 **Контрольні запитання:**
 1. Які типи команд існують в оболонці Bash?
    
-   
+
 2. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
    
 
