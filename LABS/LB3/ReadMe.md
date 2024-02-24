@@ -302,15 +302,24 @@ Some of the most useful options are:</br>
 *history-c*: Clear the history list.
 *history-d 10 20*: Delete lines 10 to 20 from the history list.
 
+2. Що таке змінні оточення? Які вони бувають? Як їх можна переглянути в терміналі?
 
-3. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
-   
+Environment variables are dynamic named values that affect the processes running on a computer. They are part of the environment in which a process runs and can be accessed by software programs during runtime. Environment variables are commonly used to configure various aspects of software behavior and to provide information about the environment in which a program is executing. In Linux, you can view environment variables in the terminal using various commands. Here are the commands specific to Linux:</br>
+*printenv*: This command prints all environment variables.
 
-4. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
-   
+*echo*: This command echoes the value of a specific environment variable. For example, to view the value of the PATH environment variable.
 
-5. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
+*env*: This command also displays the current environment variables.
    
+3. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
+
+$PS1 is an environment variable in the Bash shell that defines the primary prompt string. It determines how the command prompt appears in the terminal before each command is entered. The default value of $PS1 typically includes information such as the username, hostname, current working directory, and other relevant details. You can view the contents of $PS1 by echoing it in the terminal: *echo $PS1*
+
+4. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
+
+You can change the value of $PS1 directly in the terminal. For example, to set a new prompt that only displays the current directory: PS1='\w\$ '
+After changing $PS1, the bash prompt line (the line before each command) will reflect the updated value according to your specification.
+To change the value of $PS1 permanently, not just for the current session, you can add the assignment to your shell configuration file such as ~/.bashrc or ~/.bash_profile. This ensures that the modified prompt persists across sessions.
 
 6. Для чого використовують лапки в оболонці Bash?
 
