@@ -336,8 +336,7 @@ Looping statements (for, while, until): Used to execute code repeatedly until a 
 Case statements (case, esac): Used to perform different actions based on the value of a variable or expression.</br>
 Control flow modifiers (break, continue, return, exit): Used to alter the flow of control within loops, functions, or scripts.
 
-8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #? Наприклад на екрані ми
-бачимо наступні записи.
+8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #?
 
 In the Bash prompt line, the characters $ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
 
@@ -365,8 +364,7 @@ It searches the entire filesystem or specific directories and builds an index (o
 The locate command is more comprehensive in searching for files but may not always display the most up-to-date information since it relies on the pre-built index, which is typically updated periodically (e.g., daily) by a system cron job.</br>
 In summary, whereis is used to locate various components related to a specific command, while locate is used to quickly find files and directories by name. The choice between them depends on the specific use case and whether you need to locate a command or simply find a file on the system.
 
-
-
-
-
 **Висновок:**
+У ході виконання лабораторної роботи ми ознайомилися з базовими командами CLI-режиму в Linuх та базовими текстовими командами в термінальному режимі роботи в різних ОС. Навчилися працювати з терміналами, змінними, лапками, інструкціями керування та командами довідкм.
+
+
