@@ -311,13 +311,13 @@ Environment variables are dynamic named values that affect the processes running
 
 *env*: This command also displays the current environment variables.
    
-3. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
+3. Опишіть змінну \$PS1. Як в терміналі переглянути її вміст?
 
-$PS1 is an environment variable in the Bash shell that defines the primary prompt string. It determines how the command prompt appears in the terminal before each command is entered. The default value of $PS1 typically includes information such as the username, hostname, current working directory, and other relevant details. You can view the contents of \$PS1 by echoing it in the terminal: *echo $PS1*
+\$PS1 is an environment variable in the Bash shell that defines the primary prompt string. It determines how the command prompt appears in the terminal before each command is entered. The default value of \$PS1 typically includes information such as the username, hostname, current working directory, and other relevant details. You can view the contents of \$PS1 by echoing it in the terminal: *echo $PS1*
 
 4. Як можна змінити значення змінної \$PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
 
-You can change the value of \$PS1 directly in the terminal. For example, to set a new prompt that only displays the current directory: PS1='\w\$ '
+You can change the value of `$PS1` directly in the terminal. For example, to set a new prompt that only displays the current directory: PS1='\w\$ '
 After changing \$PS1, the bash prompt line (the line before each command) will reflect the updated value according to your specification.
 To change the value of \$PS1 permanently, not just for the current session, you can add the assignment to your shell configuration file such as ~/.bashrc or ~/.bash_profile. This ensures that the modified prompt persists across sessions.
 
@@ -336,11 +336,11 @@ Looping statements (for, while, until): Used to execute code repeatedly until a 
 Case statements (case, esac): Used to perform different actions based on the value of a variable or expression.<br/>
 Control flow modifiers (break, continue, return, exit): Used to alter the flow of control within loops, functions, or scripts.
 
-8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ \$ чи #?
+8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ \$ чи \#?
 
 In the Bash prompt line, the characters \$ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
 
-\$Prompt: When the prompt ends with \$, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.<br/>
+`$Prompt`: When the prompt ends with $, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.<br/>
 #Prompt: When the prompt ends with #, it indicates that the current shell session is running with superuser or root privileges. This is typically seen when you are logged in as the system administrator or have escalated your privileges using sudo.<br/>
 The difference between these prompts is crucial because it helps users quickly discern whether they are operating with regular user permissions or with elevated privileges that grant access to system-wide configurations and operations.
 
