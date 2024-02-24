@@ -321,17 +321,33 @@ You can change the value of $PS1 directly in the terminal. For example, to set a
 After changing $PS1, the bash prompt line (the line before each command) will reflect the updated value according to your specification.
 To change the value of $PS1 permanently, not just for the current session, you can add the assignment to your shell configuration file such as ~/.bashrc or ~/.bash_profile. This ensures that the modified prompt persists across sessions.
 
-6. Для чого використовують лапки в оболонці Bash?
+5. Для чого використовують лапки в оболонці Bash?
 
+Quotation marks in the Bash shell are used to delimit strings and to control how the shell interprets special characters within those strings. There are three types of quotation marks commonly used:</br>
+**Single quotes** ('): Encloses a string where all characters are interpreted literally, without any special meaning. Variables and command substitutions are not expanded within single quotes.</br>
+**Double quotes** ("): Encloses a string where variable names and command substitutions are expanded, but most special characters (such as *, ?, !, etc.) are not treated specially.</br>
+**Backticks** (`): Used for command substitution, indicating that the enclosed command should be executed, and its output should be substituted into the string.
 
-7. Для чого використовують інструкції керування, які їх види Ви знаєте?
-   
+6. Для чого використовують інструкції керування, які їх види Ви знаєте?
+
+Control instructions in Bash are used to manipulate the flow of execution in scripts or interactive sessions. Common types of control instructions include:</br>
+Conditional statements (if, elif, else): Used to execute code based on certain conditions.</br>
+Looping statements (for, while, until): Used to execute code repeatedly until a certain condition is met.</br>
+Case statements (case, esac): Used to perform different actions based on the value of a variable or expression.</br>
+Control flow modifiers (break, continue, return, exit): Used to alter the flow of control within loops, functions, or scripts.
 
 8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #? Наприклад на екрані ми
-бачимо наступні записи
+бачимо наступні записи.
+
+In the Bash prompt line, the characters $ and # at the end signify different prompt styles, indicating the current user's privileges or permissions.
+
+$ Prompt: When the prompt ends with $, it indicates that the current shell session is running with regular user privileges. This is typically seen when you are logged in as a regular user.
+# Prompt: When the prompt ends with #, it indicates that the current shell session is running with superuser or root privileges. This is typically seen when you are logged in as the system administrator or have escalated your privileges using sudo.
+The difference between these prompts is crucial because it helps users quickly discern whether they are operating with regular user permissions or with elevated privileges that grant access to system-wide configurations and operations.
 
 
-9. Яке призначення команд whereis та locate? Яка між ними відмінність?
+
+10. Яке призначення команд whereis та locate? Яка між ними відмінність?
 
 
 
