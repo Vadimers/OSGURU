@@ -365,6 +365,7 @@ The locate command is more comprehensive in searching for files but may not alwa
 In summary, whereis is used to locate various components related to a specific command, while locate is used to quickly find files and directories by name. The choice between them depends on the specific use case and whether you need to locate a command or simply find a file on the system.
 
 **Висновок:**
-У ході виконання лабораторної роботи ми ознайомилися з базовими командами CLI-режиму в Linuх та базовими текстовими командами в термінальному режимі роботи в різних ОС. Навчилися працювати з терміналами, змінними, лапками, інструкціями керування та командами довідкм.
+
+In the course of the lab, we learned about basic CLI commands in Linux and basic text commands in terminal mode in different operating systems. We learned how to work with variables and aliases, functions, quotes, control statements, and man pages in terminals.
 
 
