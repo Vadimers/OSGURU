@@ -91,6 +91,7 @@ The prompt line provides basic information about the current working environment
 <br/>
 For example, a typical prompt string might look like this:
 <br/>
+
 **sysadmin@localhost:~$**
 
 The prompt string contains the following information:
@@ -162,17 +163,34 @@ Associative arrays: unordered collections of data where each element has a key a
 
 **env:** displays a list of all environment variablesб сan be used to run commands with a modified environment.
 <br/>
+
 **export:** used to create environment variables or to extend the visibility of existing variables to all child processes.
 <br/>
+
 **unset:** used to remove variables from the shell.
 
 **Хід роботи.**
 
-1. Опрацюйте всі приклади команд, що представлені у лабораторній роботі курсу NDG Linux Essentials - Lab 5: Command Line Skills та Lab 6: Getting Help. Створіть таблицю для опису цих команд***
+1. Опрацюйте всі приклади команд, що представлені у лабораторній роботі курсу NDG Linux Essentials - Lab 5: Command Line Skills та Lab 6: Getting Help. Створіть таблицю для опису цих команд
 
-[//]: # (ВСТАВИТИ ТАБЛИЦЮ!!!)
+|                         Command                            |                                    Description                                  |
+|------------------------------------------------------------|---------------------------------------------------------------------------------|
+|                                ls                          | Displays information about directories and files. By default, without arguments, displays information for the current directory |
+|                               ls -l                        | Using the -l option in the ls command allows you to display information about files located in the current working directory in a long format that provides more extensive additional information |
+|                               ls -l /tmp                   | Using the /tmp argument in combination with the -l option in the ls command command allows you to display detailed information about the files in the /tmp directory |
+|                               history                      | To view the entire history list of a terminal |
+|                               !!                           | To execute the most recent command type |
+|                            $PATH                           | The PATH variable lists all the places that the system can look for programs to execute |
+|                       type command                         | Command can be used to determine information about command type |
+|                             cd                             | Change directory |
+|                            which                           | Command searches for the location of a command by searching the PATH variable |
+|                             date                           | Displays the current time and date |
+|                            whereis                         | To search for the location of a command or the man pages for a command |
+|                            locate                          | To find any file or directory |
+|                             info                           | Command also provides documentation on operating system commands and features |
+|                           --help                           | Command will provide basic information |
 
-2. Робота в в терміналі (закріплення практичних навичок) обов'язково представити свої скріншоти:
+1. Робота в в терміналі (закріплення практичних навичок) обов'язково представити свої скріншоти:
    
 2.1. Робота зі змінними (Variables) та псевдонімами (Aliases) в терміналі:
 - Створіть змінні, що будуть містити Ваші імена та прізвища $var_name1, $var_name2, $var_name3
