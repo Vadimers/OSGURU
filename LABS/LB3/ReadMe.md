@@ -253,6 +253,7 @@ Associative arrays: unordered collections of data where each element has a key a
 
 **Контрольні запитання:**
 1. Які типи команд існують в оболонці Bash?
+
    **ls Command** - The ls (list) command is used to list directories or files. By default (i.e., running ls with no options at all) the command will return the directories and files of the current directory, excluding any hidden files. Some of the most useful options are:</br>
 *ls -a*: List all the files in the current directory including hidden files too
 *ls -l*: Long listing of all the files and their size in the current directory</br>
@@ -285,43 +286,43 @@ Some of the most useful options are:</br>
 Some of the most useful options are:</br>
 *more -p file1.txt*: Clear the command line screen and then display the content of file1.txt
 *more +100 file1.txt*: Display the content of file1.txt starting from the 100th line onwards.</br>
-grep Command - The grep (global regular expression) command is useful when you wish to search for a particular string in files.
-Some of the most useful options are:
-grep-v Andrew employees.txt: Invert match Andrew in employees.txt. In other words, display all the lines that do not match the pattern Andrew.
-grep-r Andrew dirName/: Recursively search for pattern Andrew in all files in the specified directory dirName
-grep-i Andrew employees.txt: Performs a case-insensitive search.
-curl Command - The curl command is used to download or upload data using protocols such as FTP, SFTP, HTTP and HTTPS.
-which Command - The which command is used to identify and report the location of the provided executable. For instance, you may wish to see the location of the executable when calling python3.
-top Command - The top command can help you monitor running processes and the resources (such as memory) they are currently using.
-Some of the most useful options are:
-top-u myuser: Display processes for the user myuser.
-history Command - The history command displays the history of the commands that you’ve recently run.
-Some of the most useful options are:
-history-5: Display the last five commands.
-history-c: Clear the history list.
-history-d 10 20: Delete lines 10 to 20 from the history list.
+**grep Command** - The grep (global regular expression) command is useful when you wish to search for a particular string in files.
+Some of the most useful options are:</br>
+*grep-v Andrew employees.txt*: Invert match Andrew in employees.txt. In other words, display all the lines that do not match the pattern Andrew.
+*grep-r Andrew dirName/*: Recursively search for pattern Andrew in all files in the specified directory dirName
+*grep-i Andrew employees.txt*: Performs a case-insensitive search.</br>
+**curl Command** - The curl command is used to download or upload data using protocols such as FTP, SFTP, HTTP and HTTPS.</br>
+**which Command** - The which command is used to identify and report the location of the provided executable. For instance, you may wish to see the location of the executable when calling python3.</br>
+**top Command** - The top command can help you monitor running processes and the resources (such as memory) they are currently using.
+Some of the most useful options are:</br>
+*top-u myuser*: Display processes for the user myuser.</br>
+**history Command** - The history command displays the history of the commands that you’ve recently run.
+Some of the most useful options are:</br>
+*history-5*: Display the last five commands.
+*history-c*: Clear the history list.
+*history-d 10 20*: Delete lines 10 to 20 from the history list.
 
 
-2. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
+3. Що таке змінні оточення? Які вони бувають. Як їх можна переглянути в терміналі?
    
 
-3. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
+4. Опишіть змінну $PS1. Як в терміналі переглянути її вміст?
    
 
-4. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
+5. Як можна змінити значення змінної $PS1? Що при цьому відбудеться в рядку запрошенні в bash (рядок запрошення перед початком кожної команди). Як змінити значення цієї змінної не на поточний сеанс, а за замовчуванням?
    
 
-5. Для чого використовують лапки в оболонці Bash?
+6. Для чого використовують лапки в оболонці Bash?
 
 
-6. Для чого використовують інструкції керування, які їх види Ви знаєте?
+7. Для чого використовують інструкції керування, які їх види Ви знаєте?
    
 
-7. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #? Наприклад на екрані ми
+8. В чому різниця якщо в кінці рядку запрошення bash стоїть символ $ чи #? Наприклад на екрані ми
 бачимо наступні записи
 
 
-8. Яке призначення команд whereis та locate? Яка між ними відмінність?
+9. Яке призначення команд whereis та locate? Яка між ними відмінність?
 
 
 
