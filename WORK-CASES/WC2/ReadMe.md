@@ -112,7 +112,7 @@ Box, VMWare Workstation, Hyper-V (або інший на Ваш вибір).
 
 <br/>
 
-![Inputting password](./images/inputting_password.jpg)
+![Inputting password](./images/Inputting_password.jpg)
 
 <h3 align="center"><b>Inputting password</b></h3>
 
@@ -120,7 +120,7 @@ Box, VMWare Workstation, Hyper-V (або інший на Ваш вибір).
 
 <br/>
 
-![Configuration screen](./images/configuration_screen.jpg)
+![Configuration screen](./images/Configuration_screen.jpg)
 
 <h3 align="center"><b>Configuration screen</b></h3>
 
@@ -136,7 +136,7 @@ Box, VMWare Workstation, Hyper-V (або інший на Ваш вибір).
 
 <br/>
 
-![Pressing reboot](./images/Pressing_reboot.jpg)
+![Pressing reboot](./images/pressing_reboot.jpg)
 
 <h3 align="center"><b>Pressing reboot</b></h3>
 
