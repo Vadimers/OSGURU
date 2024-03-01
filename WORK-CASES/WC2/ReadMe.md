@@ -251,7 +251,7 @@ Box, VMWare Workstation, Hyper-V (або інший на Ваш вибір).
 
 <br/>
 
-![Second variant](./images/Second_variant.jpg)
+![Second variant](./images/second_variant.jpg)
 
 <h3 align="center"><b>Second variant</b></h3>
 
