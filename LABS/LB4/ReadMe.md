@@ -374,12 +374,15 @@ Use **Ctrl + C**
 1. What is the purpose of the /proc directory in Linux systems and what type of information does it store?
 
 The /proc directory in Linux systems serves as an interface to kernel data structures and stores various system information such as process information, hardware configuration, and system settings.
-How can you dynamically determine which among three processes is currently utilizing the most memory in Linux? Additionally, what percentage of memory does it consume from the total available memory?
+
+2. How can you dynamically determine which among three processes is currently utilizing the most memory in Linux? Additionally, what percentage of memory does it consume from the total available memory?
 
 To dynamically determine which process is using the most memory among three processes, you can use commands like 'top' or 'ps' to monitor memory usage. Calculate the memory usage of each process and compare them. The percentage of memory consumption can be calculated by dividing the memory usage of the process by the total available memory and then multiplying by 100.
-How can you obtain the hierarchy of parent processes in Linux systems? Provide a description of its structure.
+
+3. How can you obtain the hierarchy of parent processes in Linux systems? Provide a description of its structure.
 
 You can obtain the hierarchy of parent processes in Linux systems using the 'pstree' command. This command displays processes in a tree format, illustrating their parent-child relationships. The structure shows parent processes at the top with their child processes listed beneath them, forming a hierarchical tree.
+
 What are the differences between the 'top' command and 'ps' command in Linux?
 
 The 'top' command provides a dynamic real-time view of system processes, continuously updating information such as CPU and memory usage. On the other hand, the 'ps' command provides a snapshot of current processes running on the system at the moment the command is executed.
