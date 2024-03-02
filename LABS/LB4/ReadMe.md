@@ -371,7 +371,7 @@ Use **Ctrl + C**
 <br/>
 
 **Відповіді на контрольні запитання:**
-What is the purpose of the /proc directory in Linux systems and what type of information does it store?
+1. What is the purpose of the /proc directory in Linux systems and what type of information does it store?
 
 The /proc directory in Linux systems serves as an interface to kernel data structures and stores various system information such as process information, hardware configuration, and system settings.
 How can you dynamically determine which among three processes is currently utilizing the most memory in Linux? Additionally, what percentage of memory does it consume from the total available memory?
