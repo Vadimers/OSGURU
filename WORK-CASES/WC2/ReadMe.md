@@ -316,27 +316,32 @@ GNOME.
 Xfce and GNOME are two popular desktop environments for Linux and other open-source operating systems. While both provide a graphical user interface (GUI) to interact with the system, there are numerous variations between Xfce and GNOME in terms of design philosophy, user interface, resource utilization, and customization choices.<br/>
 Here's a comparison of their abilities:<br/>
 
-Resource Usage:
+*Resource Usage:*
 
 Xfce is known for being lightweight and efficient in terms of system resources. It's a great choice for older or less powerful hardware.
 Gnome, on the other hand, tends to be more resource-intensive compared to Xfce. It offers more visual effects and features that may require more system resources.
-Customization:
+
+*Customization:*
 
 Xfce is highly customizable, allowing users to easily tweak and configure various aspects of the desktop environment such as themes, panel layouts, and keyboard shortcuts.
 Gnome provides some customization options but tends to prioritize a more streamlined and consistent user experience out of the box. It may require more effort to customize compared to Xfce.
-User Interface:
+
+*User Interface:*
 
 Gnome has a modern and polished user interface with a focus on simplicity and user-friendly design. It features a dock-style panel at the top (by default) and a Activities Overview for managing applications and workspaces.
 Xfce has a more traditional desktop interface with a panel at the top or bottom (configurable) and a hierarchical menu system. It's straightforward and familiar for users coming from other desktop environments like Windows.
-Feature Set:
+
+*Feature Set:*
 
 Gnome comes with a rich set of features out of the box, including built-in support for virtual desktops, a powerful file manager (Nautilus), and extensive accessibility options.
 Xfce provides a solid set of features including a lightweight file manager (Thunar), customizable panels, desktop icons, and support for multiple workspaces.
-Integration:
+
+*Integration:*
 
 Gnome tends to integrate well with GTK-based applications and offers a consistent user experience across the board.
 Xfce also integrates well with GTK applications but is generally more flexible in terms of supporting applications from different toolkits.
-Community and Support:
+
+*Community and Support:*
 
 Both Gnome and Xfce have active communities providing support, documentation, and a range of third-party themes and plugins to enhance the desktop experience.
 
