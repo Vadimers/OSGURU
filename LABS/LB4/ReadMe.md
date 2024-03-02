@@ -369,3 +369,29 @@ Use **Ctrl + C**
 <br/>
 
 <br/>
+
+**Відповіді на контрольні запитання:**
+What is the purpose of the /proc directory in Linux systems and what type of information does it store?
+
+The /proc directory in Linux systems serves as an interface to kernel data structures and stores various system information such as process information, hardware configuration, and system settings.
+How can you dynamically determine which among three processes is currently utilizing the most memory in Linux? Additionally, what percentage of memory does it consume from the total available memory?
+
+To dynamically determine which process is using the most memory among three processes, you can use commands like 'top' or 'ps' to monitor memory usage. Calculate the memory usage of each process and compare them. The percentage of memory consumption can be calculated by dividing the memory usage of the process by the total available memory and then multiplying by 100.
+How can you obtain the hierarchy of parent processes in Linux systems? Provide a description of its structure.
+
+You can obtain the hierarchy of parent processes in Linux systems using the 'pstree' command. This command displays processes in a tree format, illustrating their parent-child relationships. The structure shows parent processes at the top with their child processes listed beneath them, forming a hierarchical tree.
+What are the differences between the 'top' command and 'ps' command in Linux?
+
+The 'top' command provides a dynamic real-time view of system processes, continuously updating information such as CPU and memory usage. On the other hand, the 'ps' command provides a snapshot of current processes running on the system at the moment the command is executed.
+In comparison to 'top', what additional features does 'htop' offer?
+
+'htop' offers additional features such as a more user-friendly interface, color-coded display, horizontal and vertical scrolling, and the ability to navigate and manipulate processes more efficiently, including the option to kill processes directly from the interface.
+What components does your mobile OS include for monitoring running processes?
+
+Components of my mobile OS for monitoring running processes may include a built-in task manager application, system monitor widgets, and settings options to view and manage processes.
+Does your mobile OS support terminal management of processes? If so, how?
+
+Yes, my mobile OS supports terminal management of processes. Users can utilize terminal applications to view processes, send signals, and manage them effectively using commands such as 'ps', 'kill', and 'top'.
+Is it possible to install third-party applications on your Samsung mobile phone for organizing management and monitoring of processes? If yes, briefly describe them.
+
+Yes, it is possible to install third-party applications on my Samsung mobile phone for managing and monitoring processes. These applications, such as Task Manager for Android or System Monitor, offer features like detailed process information, resource usage monitoring, and options to terminate or manage processes efficiently.
