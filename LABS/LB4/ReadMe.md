@@ -402,3 +402,5 @@ Yes, my mobile OS supports terminal management of processes. Users can utilize t
 8. Is it possible to install third-party applications on your Samsung mobile phone for organizing management and monitoring of processes? If yes, briefly describe them.
 
 Yes, it is possible to install third-party applications on my Samsung mobile phone for managing and monitoring processes. These applications, such as Task Manager for Android or System Monitor, offer features like detailed process information, resource usage monitoring, and options to terminate or manage processes efficiently.
+
+**Conclusion**: In the course of the laboratory work, we studied new commands, their functionality, and learned how to work with them in the Linux terminal.
