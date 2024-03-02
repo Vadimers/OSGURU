@@ -390,12 +390,15 @@ The 'top' command provides a dynamic real-time view of system processes, continu
 5. In comparison to 'top', what additional features does 'htop' offer?
 
 'htop' offers additional features such as a more user-friendly interface, color-coded display, horizontal and vertical scrolling, and the ability to navigate and manipulate processes more efficiently, including the option to kill processes directly from the interface.
-What components does your mobile OS include for monitoring running processes?
+
+6. What components does your mobile OS include for monitoring running processes?
 
 Components of my mobile OS for monitoring running processes may include a built-in task manager application, system monitor widgets, and settings options to view and manage processes.
-Does your mobile OS support terminal management of processes? If so, how?
+
+7. Does your mobile OS support terminal management of processes? If so, how?
 
 Yes, my mobile OS supports terminal management of processes. Users can utilize terminal applications to view processes, send signals, and manage them effectively using commands such as 'ps', 'kill', and 'top'.
-Is it possible to install third-party applications on your Samsung mobile phone for organizing management and monitoring of processes? If yes, briefly describe them.
+
+8. Is it possible to install third-party applications on your Samsung mobile phone for organizing management and monitoring of processes? If yes, briefly describe them.
 
 Yes, it is possible to install third-party applications on my Samsung mobile phone for managing and monitoring processes. These applications, such as Task Manager for Android or System Monitor, offer features like detailed process information, resource usage monitoring, and options to terminate or manage processes efficiently.
