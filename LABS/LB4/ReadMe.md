@@ -383,7 +383,7 @@ To dynamically determine which process is using the most memory among three proc
 
 You can obtain the hierarchy of parent processes in Linux systems using the 'pstree' command. This command displays processes in a tree format, illustrating their parent-child relationships. The structure shows parent processes at the top with their child processes listed beneath them, forming a hierarchical tree.
 
-What are the differences between the 'top' command and 'ps' command in Linux?
+4. What are the differences between the 'top' command and 'ps' command in Linux?
 
 The 'top' command provides a dynamic real-time view of system processes, continuously updating information such as CPU and memory usage. On the other hand, the 'ps' command provides a snapshot of current processes running on the system at the moment the command is executed.
 In comparison to 'top', what additional features does 'htop' offer?
