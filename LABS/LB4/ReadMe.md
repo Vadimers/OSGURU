@@ -386,7 +386,8 @@ You can obtain the hierarchy of parent processes in Linux systems using the 'pst
 4. What are the differences between the 'top' command and 'ps' command in Linux?
 
 The 'top' command provides a dynamic real-time view of system processes, continuously updating information such as CPU and memory usage. On the other hand, the 'ps' command provides a snapshot of current processes running on the system at the moment the command is executed.
-In comparison to 'top', what additional features does 'htop' offer?
+
+5. In comparison to 'top', what additional features does 'htop' offer?
 
 'htop' offers additional features such as a more user-friendly interface, color-coded display, horizontal and vertical scrolling, and the ability to navigate and manipulate processes more efficiently, including the option to kill processes directly from the interface.
 What components does your mobile OS include for monitoring running processes?
