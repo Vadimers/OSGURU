@@ -404,3 +404,188 @@ Yes, my mobile OS supports terminal management of processes. Users can utilize t
 Yes, it is possible to install third-party applications on my Samsung mobile phone for managing and monitoring processes. These applications, such as Task Manager for Android or System Monitor, offer features like detailed process information, resource usage monitoring, and options to terminate or manage processes efficiently.
 
 **Conclusion**: In the course of the laboratory work, we studied new commands, their functionality, and learned how to work with them in the Linux terminal.
+
+<h2> The brief dictionary of basic English terms regarding the purpose of commands and their parameters. </h2>
+
+**-A**    Shows all processes 
+
+**-N**    Shows the opposite of the specified parameters 
+
+**-a**    Shows all processes except session headers and processes without a terminal 
+
+**-d**    Shows all processes except session headers 
+
+**-e**    Shows all processes 
+
+**-C cmdlist**     Shows processes contained in the list cmdlist 
+
+**-G grplist**     Shows processes with a group ID listed in grplist 
+
+**-U userlist**    Shows processes owned by a userid listed in userlist 
+
+**-g grplist** Shows processes by session or by groupid contained in grplist 
+
+**-p pidlist** Shows processes with PIDs in the list pidlist 
+
+**-s sesslist** Shows processes with session ID in the list sesslist 
+
+**-t ttylist** Shows processes with terminal ID in the list ttylist 
+
+**-u userlist** Shows processes by effective userid in the list userlist
+
+ **-F**         Uses extra full output 
+
+**-O** format Displays specific columns in the list format, along with the default columns 
+
+**-M** Displays security information about the process 
+
+**-c** Shows additional scheduler information about the process 
+
+**-f** Displays a full format listing Shows job information 
+
+**-l** Displays a long listing
+
+**-o** format Displays only specific columns listed in format 
+
+**-y** Prevents display of process flags 
+
+**-Z** Displays the security context information
+
+**-H** Displays processes in a hierarchical format (showing parent processes) 
+
+**-n namelist**   Defines the values to display in the WCHAN column 
+
+**-w**   Uses wide output format, for unlimited width displays 
+
+**-L**  Shows process threads 
+
+**-V**  Displays the version of ps
+
+**PProcess:** An executing unit of software within an operating system.
+
+Процес: Виконавча одиниця програмного забезпечення в операційній системі.
+
+**ps Command:** A command-line utility in Unix and Unix-like operating systems that provides information about active processes. Команда ps: Командна утиліта в операційних системах Unix та подібних Unix, яка надає інформацію про активні процеси.
+
+**ps Command Parameters:**
+
+Параметри команди ps:
+
+**Unix-style parameters:** Parameters preceded by a dash.
+
+Параметри у стилі Unix: Параметри, передбачені дефісом.
+
+**BSD-style parameters:** Parameters not preceded by a dash.
+
+Параметри у стилі BSD: Параметри, які не передуються дефісом.
+
+GNU long parameters: Parameters preceded by a double dash.
+
+Параметри у стилі GNU: Параметри, передбачені подвійним дефісом.
+
+**Real-time Process Monitoring:** Displaying information about processes in an operating system in real-time.
+
+Моніторинг процесів у реальному часі: Відображення інформації про процеси в операційній системі у реальному часі.
+
+**top Command:** A command-line utility that displays information about processes in an operating system in real-time.
+
+Команда top: Командна утиліта, що відображає інформацію про процеси в операційній системі у реальному часі.
+
+**Linux Process Signals:** Predefined messages that processes recognize and may act upon, determining their behavior.
+
+Сигнали процесів Linux: Передбачені повідомлення, які процеси розпізнають та можуть виконати дії, визначаючи їх поведінку.
+
+**kill Command:** A command-line utility that allows sending signals to processes based on their process IDs (PID).
+
+Команда kill: Командна утиліта, яка дозволяє надсилати сигнали процесам на основі їх ідентифікаторів процесу (PID)
+
+**killall Command:** A command-line utility that allows stopping processes by their names instead of PIDs.
+
+Команда killall: Командна утиліта, яка дозволяє припинити роботу процесів за їх назвами замість PID.
+
+**The -e parameter** shows all the processes running on the system. Параметр -e показує всі процеси, які запущені в системі.
+
+**The -f parameter** expands the output to include additional columns of information. 
+
+Параметр -f розширює вивід, додавши додаткові стовпці інформації.
+
+•	**UID**: The user responsible for launching the process. 
+
+•	Користувач, відповідальний за запуск процесу.
+
+•	**PID**: The process ID of the process. Ідентифікатор процесу (PID) процесу. 
+
+•	**PPID** The PID of the parent process (if a process is started by another process). PID батьківського процесу (якщо процес запущений іншим процесом).
+
+•	**C** Processor utilization over the lifetime of the process. Використання процесора протягом життєвого циклу процесу.
+
+•	**STIME** The system time when the process started. Час системи, коли процес почав виконуватися.
+
+•	**TTY** The terminal device from which the process was launched. Термінальний пристрій, з якого було запущено процес.
+
+•	**TIME** The cumulative CPU time required to run the process. Кумулятивний час процесора, необхідний для виконання процесу.
+
+•	**CMD** The name of the program that was started. Назва програми, яка була запущена.
+
+ **-l parameter,** parameter which produces a long format output. створює вивід у довгому формат
+
+•	**F**: System flags assigned to the process by the kernel. Прапорці системи, призначені для процесу ядром
+
+•	**S** The state of the process (D = running on processor; S = sleeping; R = runnable, waiting to run; Z = zombie, process terminated but parent not available; T = process stopped). Стан процесу (O = запущено на процесорі; S = сплячий; R = готовий до запуску; Z = зомбі, процес завершився, але батьківський процес не відповідає; T = процес зупинено).
+	
+•	**PRI** The priority of the process (higher numbers mean lower priority). Пріоритет процесу (вищі числа означають менший пріоритет).
+	
+•	**NI** The nice value, which is used for determining priorities. Приємне значення, яке використовується для визначення пріоритетів
+
+•	**ADDR** The memory address of the process. Адреса пам'яті процесу.
+
+•	**SZ** Approximate amount of swap space required if the process was swapped out. Приблизна кількість простору обміну, необхідного, якщо процес був замінений.
+
+•	**WCHAN** Address of the kernel function where the process is sleeping. Адреса функції ядра, де спить процес
+
+**the top command** output provides a detailed list of the currently running processes, along with various information columns, which are similar to those in the ps command output/ надає докладний список поточних запущених процесів, разом з різними колонками інформації, що схожа на вивід команди ps
+
+•	**PID** Process ID of the process. Ідентифікатор процесу
+
+•	**USER** User name of the owner of the process. Ім'я користувача, власника процесу.
+
+•	**PR** Priority of the process. Пріоритет процесу.
+
+•	**NI** Nice value of the process. Значення "приємності" (nice value) процесу.
+
+•	**VIRT** Total amount of virtual memory used by the process. Загальний обсяг віртуальної пам'яті, яку використовує процес.
+
+•	**RES**: Amount of physical memory the process is using. Кількість фізичної пам'яті, яку використовує процес.
+
+•	**SHR** Amount of memory the process is sharing with other processes. Кількість пам'яті, яку процес спільно використовує з іншими процесами.
+
+•	**S** Process status (D = interruptible sleep, R = running, S = sleeping, T = traced or stopped, or Z = zombie). Статус процесу (D = переривний сон, R = виконується, S = спить, T = відстежується або зупинено, або Z = зомбі).
+
+•	**%CPU** Share of CPU time that the process is using. Доля часу ЦП, який використовує процес.
+
+•	**%MEM** Share of available physical memory the process is using. Доля доступної фізичної пам'яті, яку використовує процес.
+
+•	**TIME+**: Total CPU time the process has used since starting. Загальний час ЦП, який процес використовував з моменту запуску.
+
+•	**COMMAND** Command line name of the process (program started). Ім'я командного рядка процесу (програма, що була запущена)
+
+**A process signal**  a predefined message that processes recognize and may choose to ignore or act on.
+Заздалегідь визначене повідомлення, яке процеси впізнають і можуть вибрати, чи ігнорувати, чи діяти на нього.
+
+1 HUP Hangs up Завершує роботу.
+
+2 INT Interrupts Інтерферує.
+
+3 QUIT Stops running Припиняє роботу.
+
+9 KILL Unconditionally terminates Безумовно завершує роботу.
+
+11 SEGV Produces segment violation Викликає порушення сегменту.
+
+15 TERM Terminates if possible Завершує роботу, якщо можливо.
+
+17 STOP Stops unconditionally, but doesn't terminate Безумовно припиняє роботу, але не завершує її.
+
+18 TSTP Stops or pauses, but continues to run in background Призупиняє або паузить роботу, але продовжує виконання у фоновому режимі.
+
+19 CONT Resumes execution after STOP or TSTP. Продовжує виконання після призупинки або паузи.
