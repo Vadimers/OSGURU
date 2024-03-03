@@ -185,7 +185,7 @@ Box, VMWare Workstation, Hyper-V (або інший на Ваш вибір).
 
 <br/>
 
-![Enter service network restart](./images/Entering_service_network_restart.jpg)
+![Enter service network restart](./images/entering_service_network_restart.jpg)
 
 <h3 align="center"><b>Enter service network restart</b></h3>
 
