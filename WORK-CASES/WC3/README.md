@@ -9,13 +9,13 @@
 <br/>
 
 <h1 align="center">ЗВІТ ПО ВИКОНАННЮ<br/>
-Work-Case № 2</h1>
+Work-Case № 3</h1>
 
 <br/>
 
 <h3 align="center">з дисципліни: «Операційні системи»</h3>
 
-<h2 align="center">Тема: “Створення нової віртуальної машини”</h2>
+<h2 align="center">Тема: “Клонування віртуальних машин”</h2>
 
 
 
@@ -137,8 +137,156 @@ Work-Case № 2</h1>
 
 2. В ході роботи одна робоча віртуальна машина може взаємодіяти з іншою. Для цього необхідно між ними розгорнути мережу. Опишіть які типи організації мережевих з’єднань підтримуються в середовищі віртуальних машин, в чому особливість кожного з них:
 
-● Мережевий міст (Bridged);
+![Install Filezilla](./images/install_filezilla.png)
 
+<h3 align="center"><b>Install Filezilla</b></h3>
 
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/install_filezilla_2.png)
+
+<h3 align="center"><b>Print "yum install filezilla"</b></h3>
+
+<br/>
+
+<br/>
+
+![Connect a computer](./images/filezilla.png)
+
+<h3 align="center"><b>Connect a computer</b></h3>
+
+<br/>
+
+<br/>
+
+● Мережевий міст/проміжний адаптор (Bridged);
+
+![Bridget mode](./images/bridge.png)
+
+<h3 align="center"><b>Bridget mode</b></h3>
+
+<br/>
+
+<br/>
+
+![View IP adress](./images/2_2.png)
+
+<h3 align="center"><b>View IP adress</b></h3>
+
+<br/>
+
+<br/>
+
+![Create new file via filezilla on another PC](./images/filezilla_create_new_file.png)
+
+<h3 align="center"><b>Create new file via filezilla on another PC</b></h3>
+
+<br/>
+
+<br/>
 
 ● Внутрішня мережа (Internal Network).
+
+![Get setting for intnet network](./images/setting_intnet.png)
+
+<h3 align="center"><b>Get setting for intnet network</b></h3>
+
+<br/>
+
+<br/>
+
+![](./images/create_virtual_host.png)
+
+<br/>
+
+<br/>
+
+![Transmit file with main into clone](./images/transmit_with_main_into_clone.png)
+
+<h3 align="center"><b>Transmit file with main into clone</b></h3>
+
+<br/>
+
+<br/>
+
+3. Розгорніть мережу між вашою робочою ОС та її клоном (завдання 1):
+
+Обидві ОС мають мати вихід у мережу Інтернет. Відкрийте браузер та перегляньте будь-яке відео в youtube
+
+![YouTube](./images/youtbbe.png)
+
+<h3 align="center"><b>Print "yum install filezilla"</b></h3>
+
+<br/>
+
+<br/>
+
+4. Яким чином можна організувати обмін інформацією між вашою основною ОС (наприклад Windows) та віртуальними ОС? Скопіюйте довільний аудіо- файл з вашої основної ОС на робочий стіл віртуальної ОС та її клона. Як зробити зворотну дію, коли треба документ з робочого столу віртуальної ОС скопіювати до вашої основної робочої ОС?
+
+![Choose "Shared folders"](./images/1.png)
+
+<h3 align="center"><b>Choose "Shared folders"</b></h3>
+
+<br/>
+
+<br/>
+
+![Choose "Devices" -> "Drad and Drop" -> "Bidirectional"](./images/_2.png)
+
+<h3 align="center"><b>Choose "Devices" -> "Drad and Drop" -> "Bidirectional"</b></h3>
+
+<br/>
+
+<br/>
+
+![Choose way, name and press a OK](./images/2.png)
+
+<h3 align="center"><b>Choose way, name and press a OK</b></h3>
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/3.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/4.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/5.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/6.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/7.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/8_0.png)
+
+<br/>
+
+<br/>
+
+![Print "yum install filezilla"](./images/8.png)
+
+<br/>
+
+<br/>
