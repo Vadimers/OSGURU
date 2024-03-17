@@ -290,3 +290,12 @@ Work-Case № 3</h1>
 <br/>
 
 <br/>
+
+Висновок 
+
+In this article, we have explored the basic aspects of working with virtual machines in various virtual environments such as VirtualBox and VMWare Workstation. We looked at the process of cloning virtual operating systems and exporting them to another virtual environment.
+In the process of setting up a network between virtual machines, we considered various types of network connections, such as NAT, Bridged, Host-only, and Internal Network, each of which has its own characteristics and purpose.
+We have successfully deployed a network between virtual operating systems, configured Internet access, exchanged messages over the local network, and set up a shared network folder for both operating systems.
+Next, we studied the methods of exchanging information between virtual operating systems and the main OS, considered the process of copying an audio file from the main OS to the desktop of virtual machines, as well as the opposite action - copying a document from the desktop of virtual machines to the main OS.
+In cases where some tasks could not be completed completely, we have indicated the methodology for performing them or possible reasons for failure.
+Thus, this work allowed us to gain practical skills in working with virtual machines and their interaction with the network and the main operating system. 
