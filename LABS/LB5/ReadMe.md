@@ -79,14 +79,31 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 2.1 Порівняйте файлові структури Windows-подібної та Linux-подібної системи.
 
+In Windows, the file structure has a top-level My Computer, and each device is assigned a different drive letter (e.g., C: or D:).
+In Linux, the file structure is at the top level, the root directory (/), and each physical device is accessed through directories, not drive letters.
 
 2.2 *Розкрийте поняття FHS. Як даний стандарт використовується в контексті файлових систем? 
 
+FHS is a file system hierarchy standard that defines the structure of directories and files in Linux.
+This standard provides uniformity between different Linux distributions and simplifies the work of administrators and software developers.
+The FHS defines the main directories, such as /bin, /boot, /etc, /home, /tmp, /usr, and others, and their purpose.
 
-2.2 **Перерахуйте основні команди для роботи з файлами та каталогами в Linux: створення, переміщення, копіювання, видалення. 
+2.3 **Перерахуйте основні команди для роботи з файлами та каталогами в Linux: створення, переміщення, копіювання, видалення. 
+
+**Create:**
+mkdir: create a new directory.
+touch: create a new file or update the creation/modification time.
+**Move/rename:**
+mv: move a file or directory from one location to another or rename it.
+**Copy:**
+cp: Copy files or directories from one location to another.
+**Remove:**
+rm: Delete files or directories.
+rmdir: delete empty directories.
+To delete directories with contents, use the -r or -rf option with rm.
 
 **Завдання для попередньої підготовки.**<br/>
-*Готував матеріал студент Войтенко В.*
+*Готували матеріал студенти Войтенко В. та Селезень Є.*
 
 **Хід роботи**
 
