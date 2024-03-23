@@ -378,17 +378,28 @@ To delete directories with contents, use the -r or -rf option with rm.
 
 Контрольні запитання:
 
-1. Як можна переглянути шлях до домашньої директорії користувача за допомогою команди echo? Існує 2 способи, наведіть обидва приклади у терміналі (відповідь є у матеріалах академії cisco на сайті netacad.com)
+1. Як можна переглянути шлях до домашньої директорії користувача за допомогою команди echo? Існує 2 способи, наведіть обидва приклади у терміналі (відповідь є у матеріалах академії cisco на сайті netacad.com
 
+There are two ways:<br>
+echo $HOME<br>
+echo ~
 
 2. *Чи можна переглянути вміст кореневого каталогу, перебуваючи у домашньому каталозі користувача без переходу у кореневий каталог? Продемонструйте це в командному рядку.
-   
+
+Yes, you can use the absolute path to the root directory, for example:
+ls /
 
 3. *Яким чином в терміналі можна додати інформацію в порожній файл?
-   
+
+To do this, you can use the echo command with the >> redirect, for example:
+echo "Some information" >> filename.txt
 
 4. **Як скопіювати та видалити існуючий каталог? Чи буде відмінність в командах, якщо каталог буде не порожній при цьому
    
+Copy: cp -r source_directory destination_directory<br>
+Deleting:
+If the directory is empty: rmdir directory_name
+If the directory contains files or subdirectories: rm -r directory_name
 
 5. **У якому з наведених нижче прикладів відбувається переміщення файлу? Його перейменування? Одночасно обидві дії?
     <br/>
@@ -397,3 +408,7 @@ To delete directories with contents, use the -r or -rf option with rm.
     mv /work/tech/comp.png. /work/tech/my_car.png 
     <br/>
     mv /work/tech/comp.png. /Desktop/computer.png
+
+Moving: mv /work/tech/comp.png /Desktop
+Rename: mv /work/tech/comp.png /work/tech/my_car.png
+Move and rename at the same time: mv /work/tech/comp.png /Desktop/computer.png
