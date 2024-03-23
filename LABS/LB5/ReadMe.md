@@ -92,11 +92,11 @@ The FHS defines the main directories, such as /bin, /boot, /etc, /home, /tmp, /u
 
 **Create:**
 mkdir: create a new directory.
-touch: create a new file or update the creation/modification time.
+touch: create a new file or update the creation/modification time.<br>
 **Move/rename:**
-mv: move a file or directory from one location to another or rename it.
+mv: move a file or directory from one location to another or rename it.<br>
 **Copy:**
-cp: Copy files or directories from one location to another.
+cp: Copy files or directories from one location to another.<br>
 **Remove:**
 rm: Delete files or directories.
 rmdir: delete empty directories.
