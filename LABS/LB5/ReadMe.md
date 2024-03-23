@@ -412,3 +412,7 @@ If the directory contains files or subdirectories: rm -r directory_name
 Moving: mv /work/tech/comp.png /Desktop
 Rename: mv /work/tech/comp.png /work/tech/my_car.png
 Move and rename at the same time: mv /work/tech/comp.png /Desktop/computer.png
+
+Consolution:
+<br/>
+During the lab, I gained practical skills in working with file system navigation commands and managing files and directories. I learned the basic principles of operation and strengthened my skills in working with command keys.
