@@ -148,3 +148,11 @@ yum install geany
 <br/>
 
 Consulution:
+
+In this task, we've learned the importance of package management in our Linux system. Understanding terms like "package" and "repository" is crucial. We explored various package managers like apt, yum, and pacman, each offering unique features for tasks such as searching, installing, and updating packages.
+
+Identifying and mastering basic commands for our specific package manager ensures smooth system maintenance. We successfully installed new software, including a video or audio player and a programming language environment, directly from the terminal.
+
+We also discussed installing software through graphical application stores, highlighting the versatility of package management systems.
+
+Overall, mastering package management is essential for maintaining our system's integrity, ensuring access to software, and upholding stability and security.
