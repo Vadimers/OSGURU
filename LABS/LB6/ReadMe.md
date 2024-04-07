@@ -209,7 +209,7 @@ The purpose of the **grep command** is to search for text within the output data
 |grep 're\*' newhome.txt | Знаходження справжнього символу зірочки |
 | grep -E 'colou?r' spelling.txt | Знаходження відповідності colo після якого йде нуль або один символ u , після якого йде символ r |
 | grep -E 'e+' red.txt | Знаходження одного або більшої кількості символів e |
-| grep -E 'gray|grey' spelling.txt | Знаходження слова gray або grey |
+| grep -E 'gray \| grey' spelling.txt | Знаходження слова gray або grey |
 
 3. Ознайомтесь з командою tar та за її допомогою виконати у терміналі наступні дії:
 
