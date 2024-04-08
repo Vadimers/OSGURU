@@ -154,9 +154,55 @@ Installation: Gzip is typically installed along with the base installation of th
 
 4.2 **Наведіть три приклади реалізації архівування та стискання даних різними командами. 
 <br/>
+tar:
+
+The tar command is used for creating and extracting archives.
+Example of creating an archive: tar -cvf archive.tar file1 file2
+Example of extracting an archive: tar -xvf archive.tar
+
+gzip:
+
+The gzip command is used for compressing files.
+Example of compressing a file: gzip filename
+Example of decompressing a compressed file: gzip -d filename.gz
+
+zip/unzip:
+
+The zip and unzip commands are used for creating and extracting ZIP archives.
+Example of creating a ZIP archive: zip archive.zip file1 file2
+Example of extracting a ZIP archive: unzip archive.zip
 
 4.3 *Яке призначення команд  cat, less, more, head and tail? Зробіть короткий опис кожної команди та виділіть їх основні параметри. Яким чином їх можна встановити
 <br/>
+cat:
+
+The cat command displays the contents of a file.
+Main parameter: cat [file]
+Installation can be done through the coreutils package.
+
+less:
+
+The less command allows viewing file contents page by page.
+Main parameter: less [file]
+Installation can be done through the less package.
+
+more:
+
+The more command also allows viewing file contents page by page, but pauses after each page, awaiting user action.
+Main parameter: more [file]
+Installation can be done through the util-linux package.
+
+head:
+
+The head command outputs the first few lines of a file.
+Main parameter: head [file]
+Installation can be done through the coreutils package.
+
+tail:
+
+The tail command outputs the last few lines of a file.
+Main parameter: tail [file]
+Installation can be done through the coreutils package.
 
 4.4 **Поясніть принципи роботи командної оболонки з каналами, потоками та фільтрами
 <br/>
