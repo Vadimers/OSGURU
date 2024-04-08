@@ -207,6 +207,32 @@ Installation can be done through the coreutils package.<br/>
 4.4 **Поясніть принципи роботи командної оболонки з каналами, потоками та фільтрами
 <br/>
 
+The command-line shell operates on the principles of pipes, streams, and filters to facilitate efficient manipulation and processing of data. Here's an explanation of each:<br>
+
+**Pipes**:<br>
+
+Pipes allow for the seamless transfer of data between commands. The | symbol is used to connect the output of one command to the input of another.
+When you use a pipe, the output produced by the command on the left side of the pipe is used as the input for the command on the right side.
+For example: command1 | command2<br/>
+Here, the output of command1 is passed as input to command2.<br/>
+
+**Streams:**<br/>
+
+Streams are the primary means by which data is communicated between processes in the shell.<br/>
+There are three standard streams:<br/>
+*Standard Input (stdin):* This is where commands read input from. By default, it comes from the keyboard, but it can be redirected to come from a file or another command's output.<br/>
+*Standard Output (stdout):* This is where commands write their normal output. By default, it goes to the terminal, but it can be redirected to a file or another command's input.<br/>
+*Standard Error (stderr):* This is where commands write their error messages. Like stdout, it can be redirected.<br/>
+Redirection operators (<, >, >>) are used to manage these streams, allowing input/output redirection between files, commands, and pipes.<br/>
+
+**Filters:**<br/>
+
+Filters are commands that process input and produce output. They transform the data in some way.
+They typically operate line by line, reading from stdin and writing to stdout.
+Common filters include grep (search/filter), sed (stream editor), awk (text processing), sort (sorting), uniq (removing duplicates), etc.
+Filters can be combined using pipes to create complex data processing pipelines.
+In summary, the command-line shell leverages pipes to connect commands, streams to manage input/output channels, and filters to process data efficiently. This combination allows for powerful data manipulation and automation directly from the command line.
+
 4.5 *Яке призначення команди grep?
 <br/>
 The purpose of the **grep command** is to search for text within the output data using regular expressions. It is widely used for filtering and extracting lines of text that match a specific pattern or criteria. grep can be used as a standalone command or in conjunction with other commands through pipelines for complex search tasks. For example, using grep in combination with ls allows you to find files with specific names or extensions in a directory.
