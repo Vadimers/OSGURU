@@ -390,23 +390,32 @@ The purpose of the **grep command** is to search for text within the output data
 
 1. Надайте порівняльну характеристику процесам стискання та архівування.
 <br/>
-
+**Compression:** Reduces the size of files by removing redundant or unnecessary data. It can be lossless or lossy. Common algorithms include DEFLATE (used in ZIP, gzip) and LZMA (used in 7z, XZ).<br/>
+**Archiving:** Combines multiple files and directories into a single archive file, allowing data to be stored compactly and organized. Popular archive formats include ZIP, TAR, RAR.
 
 2. Які програми, окрім наведених в роботі, можуть використовуватись для стискання та архівування файлів та каталогів в ОС Linux? Наведіть приклади та їх короткий опис.
 <br/>
-
+**bzip2:** Used for file compression, typically provides better compression efficiency than gzip.<br/>
+$ bzip2 filename<br/>
+**xz:** Provides high compression and wide support, using the LZMA algorithm.<br/>
+$ xz filename<br/>
+**tar:** Not just an archiver, but can also be used with compression utilities like gzip, bzip2, xz.<br/>
+$ tar -czf archive.tar.gz directory    # Creating an archive with gzip compression<br/>
 
 3. *Порівняйте алгоритми стискання, що використовуються в командах (програмах), використовуваних в Linux. Які з алгоритмів можна вважати найшвидшим та найефективнішим?
 <br/>
-
+**DEFLATE (gzip, ZIP):** Fast algorithm, generally works well with diverse data types but has lower compression efficiency compared to some other algorithms.<br/>
+**LZMA (7z, XZ):** Offers high compression efficiency but tends to work slower, especially with large data volumes. Considered one of the most efficient algorithms.<br/>
 
 4. *Опишіть програмні засоби для стискання та архівування, що можуть бути використані у вашому мобільному телефоні.
 <br/>
-
+**RAR:** Mobile version of the popular RAR archiver for Android and iOS, allowing creation and extraction of archives.<br/>
+**ZArchiver:** Android app supporting various archive formats including ZIP, RAR, 7z, and more.<br/>
 
 5. *Опишіть та порівняйте програмні засоби для стискання та (де)архівування даних у ОС сімейства Windows.
 <br/>
-
+**WinRAR:** One of the most common archivers for Windows, supporting multiple archive formats including RAR, ZIP, 7z, etc.<br/>
+**7-Zip:** Open-source software with high compression efficiency, supporting formats like 7z, ZIP, RAR, and others.<br/>
 
 6. **Поясніть яким чином стиснення та архівування даних може бути використано для резервування даних. В яких ще задачах системного адміністрування воно може бути використано.
 
