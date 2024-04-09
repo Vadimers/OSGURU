@@ -443,3 +443,7 @@ Data Compression and Archiving are crucial components of the backup process and 
 The purpose of the /dev/null file directory is to discard any input or data directed to it in UNIX-like operating systems. In terms of the file system, /dev/null is not a regular file but a special device used to delete or discard data directed to it.
 
 When data or output is redirected to the /dev/null file, it is essentially just discarded, and the operating system does not store it anywhere. This is useful, for example, for discarding standard output or standard errors during command execution when you do not want them to be displayed on the screen or stored in a file.
+
+**Висновок**
+
+During the laboratory work, we gained practical skills in working with the Bash command shell. We learned basic commands for navigating the file system and basic commands for managing files and directories.
