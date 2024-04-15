@@ -56,33 +56,47 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 |                       Термін англійською                   |                                    Термін українською                                            |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-|  Compression (the process of reducing the size of a file or directory) | Стиснення (процес зменшення розміру файлу або каталогу )|
-| Archiving (the process of backing up and saving data to a secure location, often in a compressed format) | Архівування (процес резервного копіювання та збереження даних у безпечному місці, часто в стислому форматі ) |
-| Gzip (a classic compression tool that uses the DEFLATE algorithm) | Gzip (класичний інструмент стиснення, що використовує алгоритм DEFLATE) |
-| Bzip2 (a compression tool that implements the Burrows-Wheeler algorithm) | Bzip2 (інструмент стиснення, який реалізує алгоритм Барроуза-Вілера) |
-| Xz (a compression tool that uses the LZMA2 algorithm) | Xz (інструмент стиснення, що використовує алгоритм LZMA2) |
-| Tar (a command-line utility used to manipulate and create archives)  | Tar (командний інструмент, який використовується для маніпулювання та створення архівів)  |
-| Flags/Options (additional parameters passed to commands to modify their behavior) | Прапорці/опції (додаткові параметри, передані командам для зміни їх поведінки) |
-| -z (gzip) (flag used with tar to indicate gzip compression) | -z (gzip)(прапорець, використовуваний з tar для позначення стиснення gzip) |
-| -j (bzip2) (flag used with tar to indicate bzip2 compression) | -j (bzip2) (прапорець, використовуваний з tar для позначення стиснення bzip2) |
-| -J (xz) (flag used with tar to indicate xz compression) | -j (xz) (прапорець, використовуваний з tar для позначення стиснення xz) |
-| -t (tar) (flag used with tar to list the contents of an archive) | -t (tar) (прапорець, використовуваний з tar для виведення списку вмісту архіву) |
-| -c (tar) (flag used with tar to create an archive) | -c (tar) (прапорець, використовуваний з tar для створення архіву) |
-| -v (tar) (flag used with tar to display verbose output) | -v (tar) (прапорець, використовуваний з tar для виведення розгорнутої інформації) |
-| -f (tar) (flag used with tar to specify the filename of the archive) | -f (tar) (прапорець, використовуваний з tar для вказівки імені файлу архіву) |
+|  Shell script (a shell script is an executable file containing a series of commands stored in a text file. When executed, each command is run sequentially) | Сценарій оболонки (файл виконуваних команд, збережений у текстовому файлі. При запуску кожна команда виконується послідовно) |
+| Binary search path ($PATH) (a list of directories where executable files are located) | Бінарний шлях пошуку ($PATH) (cписок каталогів, де знаходяться виконувані файли) |
+| chmod (command for changing file access permissions) | chmod (зміна прав доступу)	(команда для зміни прав доступу до файлу) |
+| GNU nano (a simple text editor suitable for editing small text files) | GNU nano (простий текстовий редактор, придатний для редагування невеликих текстових файлів) |
+| Exit (Ctrl+X) (сommand to exit a program or interface) | Вихід (Ctrl+X) (команда для виходу з програми або інтерфейсу) |
+| Save (Ctrl+O) (command to save changes made to a file)  | Зберегти (Ctrl+O) (команда для збереження внесених змін у файл)  |
+| Paste (Ctrl+U) (command to insert the contents of the copy buffer at the current cursor position) | Вставити (Ctrl+U) (команда для вставлення вмісту буфера обміну у поточну позицію курсора) |
 
 *Готували матеріал студенти Войтенко В. та Селезень Є.*
 
-4. На базі розглянутого матеріалу дайте відповіді на наступні питання:
+1. На базі розглянутого матеріалу дайте відповіді на наступні питання:
 
 4.1 *Охарактеризуйте поняття скриптового сценарію у командній оболонці.
 
+A shell script in a command line environment is a file containing a sequence of commands to perform specific tasks or operations. It is typically created to automate routine tasks or to execute a series of commands in a logical order. Scripts may include conditional constructs, loops, variables, and other elements to enable complex operations and data processing.
 
 4.2 *Яким чином створюються та редагуються скрипти, що треба зробити щоб запустити скрипт?
 
+Scripts can be created and edited using text editors such as nano, vi, or any other suitable editor. To create a new script, you use file creation commands like touch or nano. After creating the script file, you need to edit it by adding the necessary commands and logic.
+
+To execute the script, you first need to give it execute permissions using the chmod +x script_name.sh command, where script_name.sh is the name of your script. Then you can run the script by specifying its name along with the file path, for example, ./script_name.sh.
 
 4.3 **Які основні компоненти материнської плати ви знаєте?
 
+Central Processing Unit (CPU): Performs calculations and manages the computer's operation.
+
+Chipset: Manages data transmission between various computer components and interacts with other devices, such as the CPU, RAM, and peripheral devices.
+
+CPU Socket: A socket into which the CPU is inserted.
+
+Memory Slots (DIMM/RAM): Places for installing RAM, which is used for temporarily storing data that the CPU can quickly access.
+
+Expansion Slots (PCI, PCIe): Allow connection of expansion cards, such as video cards, sound cards, etc.
+
+Input/Output Ports (USB, HDMI, Ethernet, Audio): Allow connection of external devices, such as keyboard, mouse, monitor, speakers, etc.
+
+BIOS/UEFI Chip: Provides initialization of hardware components when the computer starts up and initial configuration of the system.
+
+CMOS Battery: Stores BIOS/UEFI settings and system time when the computer is turned off.
+
+Power Supply System (Power Supply Unit, Capacitors): Provides power to all components of the motherboard and other computer devices.
 
 4.4 **Коротко охарактеризуйте для яких пристроїв оперують поняттями MBR та GPT?
 
@@ -173,13 +187,18 @@ In summary, mounting is an important operation for accessing external devices an
 
 **Контрольні запитання:**
 
-В чому відмінність між командами arch та lscpu?
+1. В чому відмінність між командами arch та lscpu?
+   
+The commands arch and lscpu are designed to display information about the processor architecture, but they show different aspects of this information:
 
+arch: This command displays information about the system architecture it operates on. Typically, it only indicates the processor architecture, such as x86_64 (64-bit architecture Intel or AMD), i686 (32-bit architecture Intel or AMD), or others.
 
-Якою командою можна отримати інформацію про стан використання RAM поточною системою?
+lscpu: This command provides more detailed information about the processor, including architecture, processor model, number of cores and threads, cache size, virtualization features, and other technical characteristics. Additionally, it can also output information about the system architecture and CPU operating modes, such as 32-bit or 64-bit.
 
+2. Якою командою можна отримати інформацію про стан використання RAM поточною системою?
+To obtain information about the usage of RAM by the current system, you can use the command free. This command will display the total amount of free and used RAM, as well as other related information such as buffered and cached memory.
 
-*Яким чином у скриптах можна опрацьовувати змінні та створювати розгалужені та циклічні сценарії?
+3. *Яким чином у скриптах можна опрацьовувати змінні та створювати розгалужені та циклічні сценарії?
 
 In scripts, variables can be processed, and branching and looping scenarios can be created using scripting languages such as Bash (for Unix-like systems) or PowerShell (for Windows).
 
@@ -199,13 +218,13 @@ Loops:
 
 These constructs enable scripts to be more flexible and automated, handling variables, making branching decisions, and repeating actions in loops as per the program's requirements.
 
-*Які команди для перегляду стану підключення периферійних пристроїв можна використати в терміналі? 
+4. *Які команди для перегляду стану підключення периферійних пристроїв можна використати в терміналі? 
 
 Linux/Unix: lsusb for USB devices, lspci for PCI devices, lsblk for block devices.<br/>
 macOS: system_profiler SPUSBDataType.<br/>
 Windows: Use "Device Manager" or the command wmic path Win32_PnPEntity get caption, status to view information about connected devices.<br/>
 
-**Які можливості застунку gparted? 
+5. **Які можливості застунку gparted? 
 
 GParted allows you to:
 
@@ -217,4 +236,6 @@ Check and repair file systems.<br/>
 Support various file system formats.<br/>
 Edit using relative and absolute block devices.<br/>
 
-
+Conclusion:
+<br/>
+In this lab, we learned basic commands for managing file and directory navigation and navigating the file system. We also gained some skills in working with the Bash shell and consolidated English terms for the purpose of commands and their parameters.
