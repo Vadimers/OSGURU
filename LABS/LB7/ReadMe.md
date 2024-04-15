@@ -201,20 +201,20 @@ These constructs enable scripts to be more flexible and automated, handling vari
 
 *Які команди для перегляду стану підключення периферійних пристроїв можна використати в терміналі? 
 
-Linux/Unix: lsusb for USB devices, lspci for PCI devices, lsblk for block devices.
-macOS: system_profiler SPUSBDataType.
-Windows: Use "Device Manager" or the command wmic path Win32_PnPEntity get caption, status to view information about connected devices.
+Linux/Unix: lsusb for USB devices, lspci for PCI devices, lsblk for block devices.<br/>
+macOS: system_profiler SPUSBDataType.<br/>
+Windows: Use "Device Manager" or the command wmic path Win32_PnPEntity get caption, status to view information about connected devices.<br/>
 
 **Які можливості застунку gparted? 
 
 GParted allows you to:
 
-Create, delete, and modify disk partitions.
-Resize partitions without data loss.
-Move partitions on the disk.
-Rename partitions.
-Check and repair file systems.
-Support various file system formats.
-Edit using relative and absolute block devices.
+Create, delete, and modify disk partitions.<br/>
+Resize partitions without data loss.<br/>
+Move partitions on the disk.<br/>
+Rename partitions.<br/>
+Check and repair file systems.<br/>
+Support various file system formats.<br/>
+Edit using relative and absolute block devices.<br/>
 
 
