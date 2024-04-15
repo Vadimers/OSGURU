@@ -181,6 +181,23 @@ In summary, mounting is an important operation for accessing external devices an
 
 *Яким чином у скриптах можна опрацьовувати змінні та створювати розгалужені та циклічні сценарії?
 
+In scripts, variables can be processed, and branching and looping scenarios can be created using scripting languages such as Bash (for Unix-like systems) or PowerShell (for Windows).
+
+Variable handling:
+
+**Assigning values to variables:** For example, variable=value.
+**Using variable values:** For example, echo $variable.<br/>
+
+Branching:
+
+**Conditional statements:** Used to execute different code blocks depending on a specified condition. In Bash, this can be the if-else construct.
+
+Loops:
+
+**for loop:** Used to iterate over a block of code for each item in a list
+**while loop:** Executes as long as a specified condition is true. 
+
+These constructs enable scripts to be more flexible and automated, handling variables, making branching decisions, and repeating actions in loops as per the program's requirements.
 
 *Які команди для перегляду стану підключення периферійних пристроїв можна використати в терміналі? 
 
