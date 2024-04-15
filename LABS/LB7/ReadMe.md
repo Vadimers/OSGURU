@@ -86,9 +86,23 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 4.4 **Коротко охарактеризуйте для яких пристроїв оперують поняттями MBR та GPT?
 
+MBR (Master Boot Record) and GPT (GUID Partition Table) are two different disk partitioning schemes used to organize information on storage devices such as hard drives. MBR was a widely used standard for BIOS-based computers, while GPT is the modern standard, particularly for devices with UEFI (Unified Extensible Firmware Interface). Therefore, MBR is used on older BIOS-based computers, while GPT is used on modern UEFI-based computers.
 
 4.5 **В чому суть операції монтування, для чого вона потрібна?
 
+Mounting in computer systems involves temporarily connecting a file system located on an external device to the directory hierarchy of a computer. Connecting an external device to the system and mounting it allows the computer to access files and folders stored on that device.
+
+Mounting serves several purposes, including:
+
+**Accessing external devices:** For example, mounting enables access to files on USB drives, external hard drives, etc.
+
+**Working with partitions on hard drives:** Connecting and mounting disk partitions allows reading and writing data to them.
+
+**Exchanging information between systems:** Mounting can be used to exchange files between different operating systems, such as between Linux and Windows.
+
+**Ensuring security and confidentiality:** Some systems require mounting to ensure data security and confidentiality, such as encrypting files on an external device.
+
+In summary, mounting is an important operation for accessing external devices and exchanging information between different systems in computer environments.
 
 *Готував матеріал студент Войтенко В.*
 
