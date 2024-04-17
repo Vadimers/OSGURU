@@ -77,7 +77,7 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 4.1 Розкрийте поняття “псевдо файлової системи”, для чого воно потрібно системі?
 
-
+"Pseudo Filesystem": A pseudo filesystem is a mechanism that allows accessing various system resources as files and directories within the operating system, although these resources may not actually exist as real files on disk but rather as virtual objects in memory.
 
 4.2 Чому користувачі не так часто звертаються на пряму до каталогу /proc, яким чином з нього можна отримати інформацію?
 
@@ -101,7 +101,7 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 
 4.7 **Для чого розроблено FHS?
 
-
+"Purpose of FHS": The purpose of the File Hierarchy Standard (FHS) is to standardise the organisation of files across different Linux distributions. The main purpose of the FHS is to provide consistency in the location of files and directories on the Linux file system.
 
 4.8 **Які основні команди є у Linux для перегляду та конфігурації мережі
 
@@ -142,3 +142,76 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 | host | Працює з DNS, щоб зв'язати ім'я хоста з IP-адресою |
 | ssh | Дозволяє вам підключитися до іншого комп'ютера через мережу, увійти в систему і виконувати завдання на віддаленому комп'ютері |
 | exit | Повернення на локальний комп'ютер |
+
+3. Виконайте практичні завдання у терміналі (продемонструйте скріншоти):
+- в даній лабораторній роботі використовувалась команда cat, дослідіть її можливості та опишіть для яких задач вона призначена;
+
+
+
+- *продемонструйте приклади, коли команда cat використовується для створення файлу, перегляду вмісту файлу, перенаправлення інформації у інший файл, склеювання декількох файлів в один;
+
+
+
+- *які параметри команди cat треба використати, щоб пронумерувати рядки файлу, відобразити недруковані символи, видалити порожні рядки?
+
+
+
+- **опишіть можливості команди dig та наведіть приклади;
+
+
+
+- **опишіть можливості команди netstat та наведіть приклади;.
+
+
+
+*Готували матеріал студенти Войтенко В. та Селезень Є.*
+
+**Контрольні запитання:**
+
+1. Як пов'язані між собою команди cat та tac?
+
+The commands cat and tac are related in that they both deal with the content of files in UNIX-like operating systems.
+
+So, here's how they are related:
+
+1) cat: The cat command (short for "concatenate") is used to display the contents of files to standard output. It reads files sequentially and outputs their content in the order they are specified in the input arguments.
+
+2) tac: The name tac (short for "reverse of cat") speaks for itself - this command does the same thing as cat, but outputs the content of files in reverse order, i.e., from the last line to the first.
+
+2. Що робить команда ss?
+
+The ss command is used to display socket statistics and supports all major packet and socket types.
+
+3. В чому відмінність між командами ps --forest та pstree?
+
+The command ps --forest displays process information in a hierarchical structure where each process is shown along with its parent process. pstree also displays processes in a tree-like structure, but it does so in a more interactive manner, outputting the process tree with its root at the top of the screen and graphically showing dependencies between processes.
+
+4. *У яких каталогах зберігаються налаштування системи?
+
+System settings are typically stored in the following directories:
+1) /etc: System-wide configuration settings, such as configuration files for programs and services.
+2) /var: Variable data, such as log files, temporary files, mailboxes, etc.
+3) /usr: Additional programs, libraries, and other resources related to the system software.
+4) /home: User directories where their personal settings and data are stored.
+5) /root: The home directory of the system administrator.
+
+
+5. *У яких каталогах можна знайти встановлені в системі програми, доступні для користувача?
+
+
+
+6. *У яких каталогах можна знайти встановлені системні програми і програми призначені для виконання суперкористувачем?
+
+
+
+7. **Поясніть призначення команд ping, ifconfig, traceroute.
+
+
+
+8. **Як називаються мережеві інтерфейси в Linux?
+
+
+
+9.  **Як за допомогою команди ifconfig вивести параметри тільки одного мережевого інтерфейсу (наприклад, eth1), а не всіх?
+
+
