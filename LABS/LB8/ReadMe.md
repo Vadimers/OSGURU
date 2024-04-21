@@ -287,20 +287,29 @@ System settings are typically stored in the following directories:
 
 5. *У яких каталогах можна знайти встановлені в системі програми, доступні для користувача?
 
-
+*Programs installed in the system and available to the user can typically be found in directories listed in the user's PATH environment variable. Common directories include /usr/bin, /bin, /usr/local/bin, and /sbin.
 
 6. *У яких каталогах можна знайти встановлені системні програми і програми призначені для виконання суперкористувачем?
 
-
+System programs and those intended for execution by the superuser (root) are often located in directories such as /bin, /sbin, /usr/bin, /usr/sbin, and /usr/local/sbin.
 
 7. **Поясніть призначення команд ping, ifconfig, traceroute.
 
-
+**ping:** Ping is used to test the reachability of a host on an Internet Protocol (IP) network. It sends ICMP echo request packets to the target host and waits for ICMP echo reply packets. Ping can be used to diagnose network connectivity issues and measure round-trip time (RTT) between hosts.<br/>
+**ifconfig:** ifconfig (interface configuration) is used to view and configure network interfaces on Unix-like operating systems. It displays information about network interfaces, such as IP addresses, netmasks, hardware addresses (MAC addresses), and interface status. Note that on modern Linux systems, the ip command has largely replaced ifconfig for network configuration tasks.<br/>
+**traceroute:** Traceroute is a network diagnostic tool used to trace the route taken by packets from the local host to a specified destination host. It works by sending packets with increasing TTL (Time to Live) values and observing the responses from intermediate routers. Traceroute helps identify network connectivity issues, routing problems, and network performance bottlenecks.<br/>
 
 8. **Як називаються мережеві інтерфейси в Linux?
 
-
+Network interfaces in Linux are typically named using a naming convention such as eth0, eth1, enp0s3, wlan0, etc. These names can vary depending on the Linux distribution and the system's hardware configuration.
 
 9.  **Як за допомогою команди ifconfig вивести параметри тільки одного мережевого інтерфейсу (наприклад, eth1), а не всіх?
+
+ To display parameters for a specific network interface (e.g., eth1) using the ifconfig command, you can specify the interface name as an argument. Here's the command:<br/>
+
+ ifconfig eth1<br/>
+
+ This command will display the configuration and status information for the eth1 network interface only, rather than showing information for all interfaces. Note that on some modern Linux distributions, you may need to install the net-tools package to use ifconfig, as it's been replaced by the ip command in many cases.
+
 
 
