@@ -146,23 +146,91 @@ TO THE CLASSIFICATION OF VIRTUAL ENVIRONMENTS</b></h2>
 3. Виконайте практичні завдання у терміналі (продемонструйте скріншоти):
 - в даній лабораторній роботі використовувалась команда cat, дослідіть її можливості та опишіть для яких задач вона призначена;
 
+![cat](./images/cat.png)
 
+<br/>
+
+**cat - concatenate files and print on the standard output**
 
 - *продемонструйте приклади, коли команда cat використовується для створення файлу, перегляду вмісту файлу, перенаправлення інформації у інший файл, склеювання декількох файлів в один;
 
+![creating_file](./images/creating_file.png)
 
+<br/>
+
+<br/>
+
+![cat_con](./images/cat_con.png)
+
+<br/>
+
+<br/>
+
+![doctor_replace_to_con](./images/doctor_replace_to_con.png)
+
+<br/>
+
+<br/>
+
+![combined_file](./images/combined_file.png)
+
+<br/>
+
+<br/>
 
 - *які параметри команди cat треба використати, щоб пронумерувати рядки файлу, відобразити недруковані символи, видалити порожні рядки?
 
+![cat_n](./images/cat_n.png)
 
+<br/>
+
+<br/>
+
+![cat_a](./images/cat_a.png)
+
+<br/>
+
+<br/>
+
+![cat_con_grep](./images/cat_con_grep.png)
+
+<br/>
+
+<br/>
 
 - **опишіть можливості команди dig та наведіть приклади;
 
+![dig](./images/dig.png)
 
+<br/>
+
+<br/>
+
+![dig_example_com](./images/dig_example_com.png)
+
+<br/>
+
+**dig - DNS lookup utility**
 
 - **опишіть можливості команди netstat та наведіть приклади;.
 
+![netstat](./images/netstat.png)
 
+<br/>
+
+<br/>
+
+![netstat_r](./images/netstat_r.png)
+
+<br/>
+
+<br/>
+
+![netstat_tln](./images/netstat_tln.png)
+
+<br/>
+
+**netstat  - Print network connections, routing tables, interface statistics, masquerade connections, and multi‐cast memberships**
 
 *Готували матеріал студенти Войтенко В. та Селезень Є.*
 
