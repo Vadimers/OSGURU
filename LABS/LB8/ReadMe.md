@@ -311,5 +311,7 @@ Network interfaces in Linux are typically named using a naming convention such a
 
  This command will display the configuration and status information for the eth1 network interface only, rather than showing information for all interfaces. Note that on some modern Linux distributions, you may need to install the net-tools package to use ifconfig, as it's been replaced by the ip command in many cases.
 
+Conclusion:
 
+In this lab, we've gained practical skills in working with the Bash command line, learned basic file system navigation commands, and commands for managing files and directories.
 
