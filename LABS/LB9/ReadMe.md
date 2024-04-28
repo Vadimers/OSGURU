@@ -9,13 +9,13 @@
 <br/>
 
 <h1 align="center">ЗВІТ ПО ВИКОНАННЮ<br/>
-ЛАБОРАТОРНОЇ РОБОТИ № 8</h1>
+ЛАБОРАТОРНОЇ РОБОТИ № 9</h1>
 
 <br/>
 
 <h3 align="center">з дисципліни: «Операційні системи»</h3>
 
-<h2 align="center">Тема: “Збереження службових даних системи та її мережева конфігурація” <br/></h2>
+<h2 align="center">Тема: “Захист системи та користувачів у Linux. Створення користувачів та груп” <br/></h2>
 
 
 
@@ -115,45 +115,113 @@
 
 - *створіть дві нові групи користувачів - super_admins, noob_users та good_students, визначте їх ідентифікатори;
 
+```sudo groupadd super_admins```
 
+```sudo groupadd noob_users```
+
+```sudo groupadd good_students```
+
+<h3 align="center"><b>Creating groups</b></h3>
+
+![grep 'group name' /etc/group](./images/grep_3_1.png)
+
+<h3 align="center"><b>Defining groups indeficators</b></h3>
+
+<br/>
+
+<br/>
 
 - *для кожного члену Вашої команди за допомогою терміналу створіть нового користувача (якщо працюєте самі, то просто трьох довільних користувачів), не забудьте після створення нового користувача  одразу задати йому пароль;
 
+![who](./images/useradd_passwd_4_1.png)
 
+<h3 align="center"><b>Creating new users and providing them passwords</b></h3>
+
+<br/>
+
+<br/>
 
 - **додайте нових користувачів у створені Вами нові групи таким чином, щоб у групах super_admins та noob_users було по 2 користувачі, один з яких є в обох групах, у групу good_students додайте - всіх трьох користувачів;
 
+![Adding users to groups](./images/usermod_5_1.png)
 
+<h3 align="center"><b>Adding users to groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **перегляньте інформацію про групи, та які користувачі до них входять, поясніть що ви бачите;
 
+![cat /etc/group](./images/cat_6_1.png)
 
+<h3 align="center"><b>Cheaking groups for users</b></h3>
+
+<br/>
+
+<br/>
 
 - **видаліть першого створеного вами користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував;
 
+![userdel vadym](./images/userdel_vadym_7_1.png)
 
+<h3 align="center"><b>Deleting user "vadym" and cheaking groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **видаліть другого користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував; 
 
+![userdel yevgeniy](./images/userdel_yevgeniy_8_1.png)
 
+<h3 align="center"><b>Deleting user "yevgeniy" and cheaking groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **видаліть третього користувача, перегляньте чи залишиться інформація про нього в групах, де він перебував; 
 
+![userdel petya](./images/userdel_petya_9_1.png)
 
+<h3 align="center"><b>Deleting user "petya" and cheaking groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **перегляньте інформацію про існуючі групи користувачів;
 
+![cat /etc/group](./images/userdel_petya_9_1.png)
 
+<h3 align="center"><b>Cheaking groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **видаліть створені Вами групи користувачів;
 
+![sduo groupdel "group name"](./images/groupdel_10_1.png)
 
+<h3 align="center"><b>Deleting groups</b></h3>
+
+<br/>
+
+<br/>
 
 - **перегляньте інформацію про існуючі групи користувачів.
 
+![cat /etc/group](./images/cat_etc_group_11_1.png)
 
+<h3 align="center"><b>Cheaking groups</b></h3>
 
-*Готували матеріал студенти Войтенко В. та Селезень Є.*
+<br/>
+
+<br/>
+
+*Готував матеріал студент Селезень Є.*
 
 **Контрольні запитання:**
 
