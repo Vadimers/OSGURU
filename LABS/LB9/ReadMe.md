@@ -227,39 +227,41 @@
 
 1. Чому в конфігураційних файлах паролі не зберігається в явному вигляді?
 
-
+Passwords are typically not stored in plain text in configuration files for security reasons. Instead, they are often hashed using cryptographic algorithms to protect them from unauthorized access.
 
 2. Чому не рекомендується виконувати повсякденні операції, використовуючи обліковий запис root?
 
-
+Using the root account for everyday operations is not recommended due to the potential danger of granting full system access privileges, which could lead to unintended consequences such as accidental deletion of important files or installation of malicious software.
 
 3. *У чому відмінність механізмів отримання особливих привілеїв su і sudo?
 
-
+The su (Switch User) mechanism allows users to switch their user ID to another, typically root, provided the user has the permission to do so and enters the correct password. sudo (Superuser Do), on the other hand, gives users limited ability to execute commands as another user, most often root, typically requiring the user's own password.
 
 4. *Чому домашній каталог користувача root не розміщено в каталозі /home?
 
-
+The root user's home directory is not located in /home for security reasons, as the root account has the highest level of system access privileges, and access to its home directory could potentially be unsafe.
 
 5. *Для чого використовується команда getent?
 
-
+The getent command is used to obtain information about databases used by system services, such as /etc/passwd, /etc/group, and others.
 
 6. *Як можна змінити пароль користувача?
 
-
+You can change a user's password using the passwd command. Simply execute the passwd command and provide the new password when prompted.
 
 7. **Яким чином можна видалити існуючі групи користувачів? Чи залишиться інформація про них десь у системі?
 
-
+Existing user groups can be deleted using the groupdel command. Information about them may remain in system logs or other system files, but the groups themselves will be deleted.
 
 8. **Яке призначення команди chage?
 
-
+The chage command is used to change password expiry and aging information for a user account.
 
 9. **Які параметри команди usermod ви вважаєте найбільш використовуваними?
 
-
+The most commonly used parameters of the usermod command include -a (add user to group), -G (change user's groups), -c (change user's comment/description), -l (change username), and -p (change password).
 
 Conclusion:
+
+In the course of the lab, we learned the basic commands for navigating the file system, basic commands for managing files and directories. We learned how to work with groups and users.
 
